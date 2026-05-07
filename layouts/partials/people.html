@@ -1,0 +1,44 @@
+<section id="people" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title fade-in">People</h2>
+    <div class="section-divider fade-in"></div>
+
+    <!-- Faculty -->
+    {{ range .Site.Data.people.faculty }}
+    <div class="faculty-spotlight fade-in">
+      <img src="{{ .image }}" alt="{{ .name }}" class="faculty-photo">
+      <div class="faculty-info">
+        <h3>{{ .name }}</h3>
+        <p class="title">{{ .title }}</p>
+        <p>{{ .bio }}</p>
+        {{ with .url }}<p style="margin-top:0.75rem"><a href="{{ . }}">Personal website &rarr;</a></p>{{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    <!-- Current Students -->
+    <h3 class="students-heading fade-in">Current PhD Students</h3>
+    <div class="student-grid fade-in">
+      {{ range .Site.Data.people.students }}
+      <div class="student-card">
+        <img src="{{ .image | default "/img/people/placeholder.svg" }}" alt="{{ .name }}">
+        <div class="name">{{ .name }}</div>
+        {{ with .focus }}<div class="focus">{{ . }}</div>{{ end }}
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- Alumni -->
+    <div class="alumni-section fade-in">
+      <button class="alumni-toggle">Show Alumni &amp; Where They Are Now</button>
+      <ul class="alumni-list">
+        {{ range .Site.Data.people.alumni }}
+        <li>
+          <strong>{{ .name }}</strong>
+          {{ with .position }}<span class="position">&mdash; {{ . }}</span>{{ end }}
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</section>

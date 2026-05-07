@@ -1,0 +1,116 @@
+faculty:
+  - name: Christoffer Heckman
+    title: Associate Professor, Department of Computer Science
+    image: /img/people/Heckman_Christoffer.jpg
+    bio: "Research focuses on robotics, computer vision, and machine learning. Leads work on robust perception and navigation for robots operating in challenging real-world environments."
+    url: https://ristoffer.ch
+    email: Christoffer.Heckman@colorado.edu
+
+students:
+  - name: Xuefei Sun
+    image: /img/people/Xuefei_Sun.jpg
+  - name: Doncey Albin
+    image: /img/people/Doncey_Albin.jpg
+    url: https://donceyalbin.com
+  - name: Anna Zavei-Boroda
+    image: /img/people/Anna_Zavei-Boroda.jpg
+  - name: Lorin Achey
+    image: /img/people/Lorin_Achey.jpg
+    url: https://lorinachey.github.io/
+  - name: Brendan Crowe
+    image: /img/people/Brendan_Crowe.jpg
+    url: https://brendanjcrowe.com
+  - name: Kali Hamilton
+    image: /img/people/Kali_Hamilton.jpg
+
+alumni:
+  - name: Kristen Such
+    position: ML Scientist, PickNik Robotics
+  - name: Alec Reed
+    position: Senior Software Engineer, Overland AI
+  - name: Harel Biggie
+    position: Postdoc, MIT
+  - name: Kyle Harlow
+    position: Computer Scientist, NRL
+  - name: Steve McGuire
+    position: Asst. Professor, UC Santa Cruz
+  - name: Mike Miles
+    position: Autonomy Engineer, Wisk
+  - name: Cecilia Mauceri
+    position: Senior Software Engineer, Kodiak
+  - name: Andrew Kramer
+    position: Applied Scientist, Amazon
+  - name: John Stechschulte
+    position: Senior Algorithm Engineer, NVIDIA
+  - name: Sina Aghli
+    position: Founder, Lynx Robotics
+  - name: Fernando Nobre
+    position: CTO, Durable AI
+  - name: Mike Kasper
+    position: Principal Research Engineer, Volum
+  - name: Zhaozhong Chen
+    position: Research Scientist, InnoPeak
+  - name: Sam Bateman
+    position: PhD Student, Princeton
+  - name: Nikolaas Bender
+    position: Grad Student, UC Santa Cruz
+  - name: Rio McMahon
+    position: Lead ML Engineer, Cipher Mining
+  - name: Greg Lund
+    position: Grad Student, Stanford
+  - name: Andrew Beathard
+    position: Grad Student, Texas A&M
+  - name: Yang Li
+    position: Senior Software Engineer, Waymo
+  - name: Ajay Narasimha Mopidevi
+    position: Lendbuzz
+  - name: Dusty Woods
+    position: Overland AI
+  - name: Miles Mena
+    position:
+  - name: Daniel Torres
+    position: Software Engineer, Barn Owl Robotics
+  - name: Wyatt Raich
+    position: Software Engineer, HelloTrade
+  - name: Earl Potters
+    position: JPMorganChase
+  - name: Davis Landry
+    position: Automation and Controls Engineer, SpaceX
+  - name: Ryan Slocum
+    position: Data Analyst, CU Boulder
+  - name: Carl Stahoviak
+    position:
+  - name: Boston Cleek
+    position: Robotics Software Engineer
+  - name: Soham Banerjee
+    position:
+  - name: Ryan Leonard
+    position: Berkshire Grey
+  - name: Nikhil Mahendra
+    position: Medtronic
+  - name: Corin Sandford
+    position:
+  - name: Akshay Singh
+    position:
+  - name: Gage Froelich
+    position: Mechanical Engineer, Ball Aerospace
+  - name: Soroush Khadem
+    position: Clay
+  - name: Daniel Kim
+    position:
+  - name: Kellen Mcdonald
+    position:
+  - name: Nicole Gunderson
+    position: PhD Student, UW
+  - name: Akanksha Nelacanti
+    position:
+  - name: Caitlyn Robinson
+    position: Terumo Blood and Cell Technologies
+  - name: Juan Falquez
+    position: Amazon Robotics
+  - name: Xujia Zhang
+    position:
+  - name: Abhidip Bhattacharyya
+    position:
+  - name: Zachary Asmussen
+    position:

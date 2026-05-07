@@ -1,0 +1,8 @@
+baseURL: "https://arpg.colorado.edu/"
+title: "ARPG - Autonomous Robotics and Perception Group"
+languageCode: "en-us"
+enableRobotsTXT: true
+
+params:
+  description: "Autonomous Robotics and Perception Group at the University of Colorado Boulder"
+  author: "Christoffer Heckman"

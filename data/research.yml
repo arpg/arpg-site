@@ -1,0 +1,104 @@
+- title: "Generative Geometry for Robot Autonomy"
+  description: "We develop diffusion-based generative models that synthesize 3D occupancy and semantic geometry from partial observations, enabling robots to predict and plan through unseen space."
+  image: /img/research/scenesense.png
+  github: https://github.com/arpg/SceneSense
+  papers:
+    - title: "Robust Robotic Exploration and Mapping Using Generative Occupancy Map Synthesis"
+      authors: "Achey, Reed, Crowe, Hayes, Heckman"
+      venue: "Autonomous Robots, 2026"
+      url: https://doi.org/10.1007/s10514-025-10229-0
+    - title: "Octree Latent Diffusion for Semantic 3D Scene Generation and Completion"
+      authors: "Zhang, Crowe, Heckman"
+      venue: "arXiv 2025"
+      url: https://arxiv.org/abs/2509.16483
+    - title: "Online Diffusion-Based 3D Occupancy Prediction at the Frontier"
+      authors: "Reed, Achey, Crowe, Hayes, Heckman"
+      venue: "ICRA 2025"
+      url: https://arxiv.org/abs/2409.10681
+    - title: "SceneSense: Diffusion Models for 3D Occupancy Synthesis"
+      authors: "Reed, Crowe, Albin, Achey, Hayes, Heckman"
+      venue: "IROS 2024"
+      url: https://arxiv.org/abs/2403.11985
+    - title: "Looking Around Corners: Generative Methods in Terrain Extension"
+      authors: "Reed, Heckman"
+      venue: "RSS Workshop 2023"
+      url:
+    - title: "Verified Path Following Using Neural Control Lyapunov Functions"
+      authors: "Reed, Berger, Sankaranarayanan, Heckman"
+      venue: "CoRL 2022"
+      url:
+
+- title: "Vision-Language Understanding & Navigation"
+  description: "From the SUN-Spot dataset to Spatial-LLaVA, we advance how robots understand spatial language, ground referring expressions in visual scenes, and navigate from natural language instructions."
+  image: /img/research/langnav.png
+  papers:
+    - title: "RF-Modulated Adaptive Communication Improves Multi-Agent Robotic Exploration"
+      authors: "Achey, Crockett, Heckman, Hayes"
+      venue: "arXiv 2026"
+      url: https://arxiv.org/abs/2602.12074
+    - title: "Spatial-LLaVA: Enhancing LLMs with Spatial Referring Expressions"
+      authors: "Sun, Albin, Mauceri, Woods, Heckman"
+      venue: "arXiv 2025"
+      url: https://arxiv.org/abs/2505.12194
+    - title: "CogExplore: Contextual Exploration with Language-Encoded Environment Representations"
+      authors: "Biggie, Cooper, Albin, Such, Heckman"
+      venue: "arXiv 2024"
+      url: https://arxiv.org/abs/2406.17180
+    - title: "ReCAP: Semantic Role Enhanced Caption Generation"
+      authors: "Bhattacharyya, Palmer, Heckman"
+      venue: "LREC-COLING 2024"
+      url: https://aclanthology.org/2024.lrec-main.1191/
+    - title: "Tell Me Where to Go: A Composable Framework for Context-Aware Embodied Robot Navigation"
+      authors: "Biggie, Mopidevi, Woods, Heckman"
+      venue: "CoRL 2023"
+      url:
+    - title: "CRAPES: Cross-modal Annotation Projection for Visual Semantic Role Labeling"
+      authors: "Bhattacharyya, Palmer, Heckman"
+      venue: "*SEM @ ACL 2023"
+      url: https://doi.org/10.18653/v1/2023.starsem-1.7
+    - title: "SUN-Spot: An RGB-D Dataset With Spatial Referring Expressions"
+      authors: "Mauceri, Palmer, Heckman"
+      venue: "ICCVW 2019"
+      url: https://doi.org/10.1109/ICCVW.2019.00236
+
+- title: "Multi-Robot Collaborative Perception"
+  description: "Building datasets and algorithms for multi-robot data association and collaborative perception in heterogeneous robot teams."
+  image: /img/research/multirobot.png
+  papers:
+    - title: "CU-Multi: A Dataset for Multi-Robot Collaborative Perception"
+      authors: "Albin, McGann, Mena, Thomas, Biggie, Sun, McGuire, How, Heckman"
+      venue: "arXiv 2025"
+      url: https://arxiv.org/abs/2509.19463
+    - title: "CU-Multi: A Dataset for Multi-Robot Data Association"
+      authors: "Albin, Mena, Thomas, Biggie, Sun, Woods, McGuire, Heckman"
+      venue: "arXiv 2025"
+      url: https://arxiv.org/abs/2505.17576
+    - title: "Towards Decentralized Heterogeneous Multi-Robot SLAM and Target Tracking"
+      authors: "Dagan, Cinquini, Morrissey, Such, Ahmed, Heckman"
+      venue: "arXiv 2023"
+      url: https://arxiv.org/abs/2306.04570
+
+- title: "Millimeter Wave RADAR Perception"
+  description: "Pioneering the use of mmWave RADAR as a primary perception modality for robotics, from datasets to dense mapping in degraded visual conditions."
+  image: /img/research/radar.png
+  papers:
+    - title: "A New Wave in Robotics: Survey on Recent mmWave Radar Applications"
+      authors: "Harlow, Jang, Barfoot, Kim, Heckman"
+      venue: "IEEE T-RO 2024"
+      url: https://doi.org/10.1109/TRO.2024.3463504
+    - title: "RMap: Millimeter-Wave Radar Mapping Through Volumetric Upsampling"
+      authors: "Mopidevi, Harlow, Heckman"
+      venue: "IROS 2024"
+      url: https://doi.org/10.1109/IROS58592.2024.10801827
+    - title: "Radar-Based Localization for Autonomous Ground Vehicles in Suburban Neighborhoods"
+      authors: "Kramer, Heckman"
+      venue: "arXiv 2024"
+      url: https://arxiv.org/abs/2405.00600
+    - title: "ColoRadar: The Direct 3D Millimeter Wave Radar Dataset"
+      authors: "Kramer, Harlow, Williams, Heckman"
+      venue: "IJRR 2022"
+      url: https://doi.org/10.1177/02783649211068535
+    - title: "Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments"
+      authors: "Kramer, Stahoviak, Santamaria-Navarro, Agha-mohammadi, Heckman"
+      venue: "ICRA 2020"
+      url: https://doi.org/10.1109/ICRA40945.2020.9196666

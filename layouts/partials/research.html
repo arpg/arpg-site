@@ -1,0 +1,53 @@
+<section id="research" class="section">
+  <div class="container">
+    <h2 class="section-title fade-in">Research</h2>
+    <div class="section-divider fade-in"></div>
+
+    <!-- Active Research: featured cards -->
+    <div class="featured-research">
+      {{ range .Site.Data.research }}
+      <div class="featured-card fade-in">
+        <div class="featured-image">
+          {{ if .image }}
+          <img src="{{ .image }}" alt="{{ .title }}" loading="lazy">
+          {{ else }}
+          <div class="featured-image-placeholder">{{ .title }}</div>
+          {{ end }}
+        </div>
+        <div class="featured-body">
+          <h3>{{ .title }}</h3>
+          <p class="featured-desc">{{ .description }}</p>
+          {{ with .github }}<a href="{{ . }}" class="featured-link" target="_blank" rel="noopener">GitHub &rarr;</a>{{ end }}
+          {{ if .papers }}
+          <ul class="featured-papers">
+            {{ range .papers }}
+            <li>
+              {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>{{ else }}<span>{{ .title }}</span>{{ end }}
+              <span class="paper-meta">{{ .authors }} &middot; {{ .venue }}</span>
+            </li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- Past Research -->
+    <h3 class="past-research-heading fade-in">Past Research</h3>
+    <div class="research-grid past-grid">
+      {{ range .Site.Data.past_research }}
+      <div class="research-card past-card fade-in">
+        {{ if .image }}
+        <img src="{{ .image }}" alt="{{ .title }}" loading="lazy">
+        {{ end }}
+        <div class="research-card-body">
+          <h3>{{ .title }}</h3>
+          <p>{{ .description }}</p>
+          {{ with .funding }}<div class="funding">{{ . }}</div>{{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

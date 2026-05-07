@@ -1,0 +1,35 @@
+- title: "MARBLE: DARPA Subterranean Challenge"
+  description: "Multi-agent autonomy with RADAR-based localization for exploring underground environments. 3rd place, $500K prize."
+  image: /img/research/subt_new.png
+  funding: DARPA TTO
+
+- title: "Mixed Reality for Field Robot Emergency Response"
+  description: "Immersive mixed reality interfaces for supervision and telepresence with outdoor field robotic systems."
+  image: /img/research/mixedreality.png
+  funding: NSF #1764092
+
+- title: "Light Source Estimation"
+  description: "Determining location, direction, intensity, and color of illuminants using physically-based rendering models."
+  image: /img/research/lightsource.png
+
+- title: "Autonomous Vehicles & Agile Control"
+  description: "Terrain-aware model predictive control, game-theoretic lane changing, and high-speed autonomous navigation through challenging terrain."
+  image: /img/research/parkourcars.png
+  funding: NSF #1646556
+
+- title: "RestoreBot"
+  description: "Autonomous multi-agent systems for targeted seed planting in degraded rangelands."
+  image: /img/research/restorebot_new.jpg
+  funding: USDA/NIFA
+
+- title: "Environmental Sensing"
+  description: "Low-cost radar sensors for field-based water level monitoring with sub-centimeter accuracy."
+  image: /img/research/envsensing.png
+
+- title: "Calibration & SLAM"
+  description: "Online self-calibration, Bayesian optimization for ICP and Kalman filters, and robust SLAM pipelines."
+  image: /img/research/slam_new.png
+
+- title: "Medical Robotics"
+  description: "Autonomous endoscope navigation and disease-robust cardiac MRI segmentation."
+  image: /img/research/medical.png

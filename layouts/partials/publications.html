@@ -1,0 +1,26 @@
+<section id="publications" class="section">
+  <div class="container">
+    <h2 class="section-title fade-in">Publications</h2>
+    <div class="section-divider fade-in"></div>
+
+    {{ $pubs := .Site.Data.publications }}
+    {{ $years := slice }}
+    {{ range $pubs }}
+      {{ $years = $years | append .year }}
+    {{ end }}
+    {{ $years = $years | uniq | sort | complement (slice) }}
+
+    {{ range $year := sort ($years | uniq) "value" "desc" }}
+    <div class="pub-year fade-in">{{ $year }}</div>
+    {{ range where $pubs "year" $year }}
+    <div class="pub-entry fade-in">
+      <div class="pub-title">
+        {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
+      </div>
+      <div class="pub-authors">{{ .authors }}</div>
+      {{ with .venue }}<div class="pub-venue">{{ . }}</div>{{ end }}
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</section>

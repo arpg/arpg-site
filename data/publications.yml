@@ -1,0 +1,612 @@
+- title: "Radar SLAM (Chapter 9, SLAM Handbook)"
+  authors: "Martin Magnusson, Christoffer Heckman, Henrik Andreasson, Ayoung Kim, Timothy Barfoot, Michael Kaess, Paul Newman"
+  venue: "Cambridge University Press"
+  year: 2026
+  url: https://hdl.handle.net/1721.1/163400
+
+- title: "Robust robotic exploration and mapping using generative occupancy map synthesis"
+  authors: "Lorin Achey, Alec Reed, Brendan Crowe, Bradley Hayes, Christoffer Heckman"
+  venue: "Auton. Robots"
+  year: 2026
+  url: https://doi.org/10.1007/s10514-025-10229-0
+
+- title: "Cost-Effective Radar Sensors for Field-Based Water Level Monitoring with Sub-Centimeter Accuracy"
+  authors: "Anna Zavei-Boroda, J. Toby Minear, Kyle Harlow, Dusty Woods, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2026
+  url: https://doi.org/10.48550/arXiv.2601.03447
+
+- title: "RF-Modulated Adaptive Communication Improves Multi-Agent Robotic Exploration"
+  authors: "Lorin Achey, Breanne Crockett, Christoffer Heckman, Bradley Hayes"
+  venue: "CoRR"
+  year: 2026
+  url: https://doi.org/10.48550/arXiv.2602.12074
+
+- title: "Reducing Text Bias in Synthetically Generated MCQAs for VLMs in Autonomous Driving"
+  authors: "Sutej Kulgod, Sean Ye, Sanchit Tanwar, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2026
+  url: https://doi.org/10.48550/arXiv.2602.17677
+
+- title: "Foundation Models for Rapid Autonomy Validation"
+  authors: "Alec Farid, Peter Schleede, Aaron Huang, Christoffer Heckman"
+  venue: "ICRA"
+  year: 2025
+  url: https://doi.org/10.1109/ICRA55743.2025.11127854
+
+- title: "Online Diffusion-Based 3D Occupancy Prediction at the Frontier with Probabilistic Map Reconciliation"
+  authors: "Alec Reed, Lorin Achey, Brendan Crowe, Bradley Hayes, Christoffer Heckman"
+  venue: "ICRA"
+  year: 2025
+  url: https://doi.org/10.1109/ICRA55743.2025.11128832
+
+- title: "Spatial-LLaVA: Enhancing Large Language Models with Spatial Referring Expressions for Visual Understanding"
+  authors: "Xuefei Sun, Doncey Albin, Cecilia Mauceri, Dusty Woods, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2025
+  url: https://doi.org/10.48550/arXiv.2505.12194
+
+- title: "CU-Multi: A Dataset for Multi-Robot Data Association"
+  authors: "Doncey Albin, Miles Mena, Annika Thomas, Harel Biggie, Xuefei Sun, Dusty Woods, Steve McGuire, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2025
+  url: https://doi.org/10.48550/arXiv.2505.17576
+
+- title: "Robust Robotic Exploration and Mapping Using Generative Occupancy Map Synthesis"
+  authors: "Lorin Achey, Alec Reed, Brendan Crowe, Bradley Hayes, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2025
+  url: https://doi.org/10.48550/arXiv.2506.20049
+
+- title: "Octree Latent Diffusion for Semantic 3D Scene Generation and Completion"
+  authors: "Xujia Zhang, Brendan Crowe, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2025
+  url: https://doi.org/10.48550/arXiv.2509.16483
+
+- title: "CU-Multi: A Dataset for Multi-Robot Collaborative Perception"
+  authors: "Doncey Albin, Daniel McGann, Miles Mena, Annika Thomas, Harel Biggie, Xuefei Sun, Steve McGuire, Jonathan P. How, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2025
+  url: https://doi.org/10.48550/arXiv.2509.19463
+
+- title: "Neural dynamics of robust legged robots"
+  authors: "Eugene R. Rush, Christoffer Heckman, Kaushik Jayaram, J. Sean Humbert"
+  venue: "Frontiers Robotics AI"
+  year: 2024
+  url: https://doi.org/10.3389/frobt.2024.1324404
+
+- title: "Kalman Filter Auto-Tuning With Consistent and Robust Bayesian Optimization"
+  authors: "Zhaozhong Chen, Harel Biggie, Nisar R. Ahmed, Simon Julier, Christoffer Heckman"
+  venue: "IEEE Trans. Aerosp. Electron. Syst."
+  year: 2024
+  url: https://doi.org/10.1109/TAES.2024.3350587
+
+- title: "Present and Future of SLAM in Extreme Environments: The DARPA SubT Challenge"
+  authors: "Kamak Ebadi, Lukas Bernreiter, Harel Biggie, Gavin Catt, Yun Chang, Arghya Chatterjee 0002, Christopher E. Denniston, Simon-Pierre Deschênes, Kyle Harlow, Shehryar Khattak, Lucas Nogueira, Matteo Palieri, Pavel Petrácek, Matej Petrlík, Andrzej Reinke, Vít Krátký, Shibo Zhao, Ali-akbar Agha-mohammadi, Kostas Alexis, Christoffer Heckman, Kasra Khosoussi, Navinda Kottege, Benjamin Morrell, Marco Hutter 0001, Fred Pauling, François Pomerleau, Martin Saska, Sebastian A. Scherer, Roland Siegwart, Jason L. Williams, Luca Carlone"
+  venue: "IEEE Trans. Robotics"
+  year: 2024
+  url: https://doi.org/10.1109/TRO.2023.3323938
+
+- title: "A New Wave in Robotics: Survey on Recent MmWave Radar Applications in Robotics"
+  authors: "Kyle Harlow, Hyesu Jang, Timothy D. Barfoot, Ayoung Kim, Christoffer Heckman"
+  venue: "IEEE Trans. Robotics"
+  year: 2024
+  url: https://doi.org/10.1109/TRO.2024.3463504
+
+- title: "ReCAP: Semantic Role Enhanced Caption Generation"
+  authors: "Abhidip Bhattacharyya, Martha Palmer, Christoffer Heckman"
+  venue: "LREC/COLING"
+  year: 2024
+  url: https://aclanthology.org/2024.lrec-main.1191
+
+- title: "RMap: Millimeter-Wave Radar Mapping Through Volumetric Upsampling"
+  authors: "Ajay Narasimha Mopidevi, Kyle Harlow, Christoffer Heckman"
+  venue: "IROS"
+  year: 2024
+  url: https://doi.org/10.1109/IROS58592.2024.10801827
+
+- title: "SceneSense: Diffusion Models for 3D Occupancy Synthesis from Partial Observation"
+  authors: "Alec Reed, Brendan Crowe, Doncey Albin, Lorin Achey, Bradley Hayes, Christoffer Heckman"
+  venue: "IROS"
+  year: 2024
+  url: https://doi.org/10.1109/IROS58592.2024.10802589
+
+- title: "SceneSense: Diffusion Models for 3D Occupancy Synthesis from Partial Observation"
+  authors: "Alec Reed, Brendan Crowe, Doncey Albin, Lorin Achey, Bradley Hayes, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2024
+  url: https://doi.org/10.48550/arXiv.2403.11985
+
+- title: "Radar-Based Localization For Autonomous Ground Vehicles In Suburban Neighborhoods"
+  authors: "Andrew Kramer, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2024
+  url: https://doi.org/10.48550/arXiv.2405.00600
+
+- title: "CogExplore: Contextual Exploration with Language-Encoded Environment Representations"
+  authors: "Harel Biggie, Patrick Cooper, Doncey Albin, Kristen Such, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2024
+  url: https://doi.org/10.48550/arXiv.2406.17180
+
+- title: "Online Diffusion-Based 3D Occupancy Prediction at the Frontier with Probabilistic Map Reconciliation"
+  authors: "Alec Reed, Lorin Achey, Brendan Crowe, Bradley Hayes, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2024
+  url: https://doi.org/10.48550/arXiv.2409.10681
+
+- title: "Foundation Models for Rapid Autonomy Validation"
+  authors: "Alec Farid, Peter Schleede, Aaron Huang, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2024
+  url: https://doi.org/10.48550/arXiv.2411.03328
+
+- title: "Terrain-aware semantic mapping for cooperative subterranean exploration"
+  authors: "Michael J. Miles, Harel Biggie, Christoffer Heckman"
+  venue: "Frontiers Robotics AI"
+  year: 2023
+  url: https://doi.org/10.3389/frobt.2023.1249586
+
+- title: "Flexible Supervised Autonomy for Exploration in Subterranean Environments"
+  authors: "Harel Biggie, Eugene R. Rush, Danny G. Riley, Shakeeb Ahmad, Michael Ohradzansky, Kyle Harlow, Michael J. Miles, Daniel Torres, Steve McGuire, Eric W. Frew, Christoffer Heckman, James Sean Humbert"
+  venue: "Field Robotics"
+  year: 2023
+  url: https://doi.org/10.55417/fr.2023004
+
+- title: "Tell Me Where to Go: A Composable Framework for Context-Aware Embodied Robot Navigation"
+  authors: "Harel Biggie, Ajay Narasimha Mopidevi, Dusty Woods, Christoffer R. Heckman"
+  venue: "CoRL"
+  year: 2023
+  url: https://proceedings.mlr.press/v229/biggie23a.html
+
+- title: "BO-ICP: Initialization of Iterative Closest Point Based on Bayesian Optimization"
+  authors: "Harel Biggie, Andrew Beathard, Christoffer Heckman"
+  venue: "ICRA"
+  year: 2023
+  url: https://doi.org/10.1109/ICRA48891.2023.10160570
+
+- title: "Restorebot: Towards an Autonomous Robotics Platform for Degraded Rangeland Restoration"
+  authors: "Kristen Such, Harel Biggie, Christoffer Heckman"
+  venue: "ISER"
+  year: 2023
+  url: https://doi.org/10.1007/978-3-031-63596-0_28
+
+- title: "CRAPES:Cross-modal Annotation Projection for Visual Semantic Role Labeling"
+  authors: "Abhidip Bhattacharyya, Martha Palmer, Christoffer Heckman"
+  venue: ""
+  year: 2023
+  url: https://doi.org/10.18653/v1/2023.starsem-1.7
+
+- title: "Flexible Supervised Autonomy for Exploration in Subterranean Environments"
+  authors: "Harel Biggie, Eugene R. Rush, Danny G. Riley, Shakeeb Ahmad, Michael T. Ohradzansky, Kyle Harlow, Michael J. Miles, Daniel Torres, Steve McGuire, Eric W. Frew, Christoffer Heckman, J. Sean Humbert"
+  venue: "CoRR"
+  year: 2023
+  url: https://doi.org/10.48550/arXiv.2301.00771
+
+- title: "BO-ICP: Initialization of Iterative Closest Point Based on Bayesian Optimization"
+  authors: "Harel Biggie, Andrew Beathard, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2023
+  url: https://doi.org/10.48550/arXiv.2304.13114
+
+- title: "A New Wave in Robotics: Survey on Recent mmWave Radar Applications in Robotics"
+  authors: "Kyle Harlow, Hyesu Jang, Timothy D. Barfoot, Ayoung Kim, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2023
+  url: https://doi.org/10.48550/arXiv.2305.01135
+
+- title: "Towards Decentralized Heterogeneous Multi-Robot SLAM and Target Tracking"
+  authors: "Ofer Dagan, Tycho L. Cinquini, Luke Morrissey, Kristen Such, Nisar R. Ahmed, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2023
+  url: https://doi.org/10.48550/arXiv.2306.04570
+
+- title: "Looking Around Corners: Generative Methods in Terrain Extension"
+  authors: "Alec Reed, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2023
+  url: https://doi.org/10.48550/arXiv.2306.07160
+
+- title: "Kalman Filter Auto-tuning through Enforcing Chi-Squared Normalized Error Distributions with Bayesian Optimization"
+  authors: "Zhaozhong Chen, Harel Biggie, Nisar R. Ahmed, Simon Julier, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2023
+  url: https://doi.org/10.48550/arXiv.2306.07225
+
+- title: "Tell Me Where to Go: A Composable Framework for Context-Aware Embodied Robot Navigation"
+  authors: "Harel Biggie, Ajay Narasimha Mopidevi, Dusty Woods, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2023
+  url: https://doi.org/10.48550/arXiv.2306.09523
+
+- title: "A Population-Level Analysis of Neural Dynamics in Robust Legged Robots"
+  authors: "Eugene R. Rush, Christoffer Heckman, Kaushik Jayaram, J. Sean Humbert"
+  venue: "CoRR"
+  year: 2023
+  url: https://doi.org/10.48550/arXiv.2306.15793
+
+- title: "RMap: Millimeter-Wave Radar Mapping Through Volumetric Upsampling"
+  authors: "Ajay Narasimha Mopidevi, Kyle Harlow, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2023
+  url: https://doi.org/10.48550/arXiv.2310.13188
+
+- title: "Restorebot: Towards an Autonomous Robotics Platform for Degraded Rangeland Restoration"
+  authors: "Kristen Such, Harel Biggie, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2023
+  url: https://doi.org/10.48550/arXiv.2312.07724
+
+- title: "Multi-Agent Autonomy: Advancements and Challenges in Subterranean Exploration"
+  authors: "Michael Ohradzansky, Eugene R. Rush, Danny G. Riley, Andrew B. Mills, Shakeeb Ahmad, Steve McGuire, Harel Biggie, Kyle Harlow, Michael J. Miles, Eric W. Frew, Christoffer Heckman, James Sean Humbert"
+  venue: "Field Robotics"
+  year: 2022
+  url: https://doi.org/10.55417/fr.2022035
+
+- title: "ColoRadar: The direct 3D millimeter wave radar dataset"
+  authors: "Andrew Kramer, Kyle Harlow, Christopher R. Williams, Christoffer Heckman"
+  venue: "Int. J. Robotics Res."
+  year: 2022
+  url: https://doi.org/10.1177/02783649211068535
+
+- title: "Verified Path Following Using Neural Control Lyapunov Functions"
+  authors: "Alec Reed, Guillaume O. Berger, Sriram Sankaranarayanan 0001, Christoffer Heckman"
+  venue: "CoRL"
+  year: 2022
+  url: https://proceedings.mlr.press/v205/reed23a.html
+
+- title: "Aligning Images and Text with Semantic Role Labels for Fine-Grained Cross-Modal Understanding"
+  authors: "Abhidip Bhattacharyya, Cecilia Mauceri, Martha Palmer, Christoffer Heckman"
+  venue: "LREC"
+  year: 2022
+  url: https://aclanthology.org/2022.lrec-1.528
+
+- title: "Present and Future of SLAM in Extreme Underground Environments"
+  authors: "Kamak Ebadi, Lukas Bernreiter, Harel Biggie, Gavin Catt, Yun Chang, Arghya Chatterjee 0002, Christopher E. Denniston, Simon-Pierre Deschênes, Kyle Harlow, Shehryar Khattak, Lucas Nogueira, Matteo Palieri, Pavel Petrácek, Matej Petrlík, Andrzej Reinke, Vít Krátký, Shibo Zhao, Ali-akbar Agha-mohammadi, Kostas Alexis, Christoffer Heckman, Kasra Khosoussi, Navinda Kottege, Benjamin Morrell, Marco Hutter 0001, Fred Pauling, François Pomerleau, Martin Saska, Sebastian A. Scherer, Roland Siegwart, Jason L. Williams, Luca Carlone"
+  venue: "CoRR"
+  year: 2022
+  url: https://doi.org/10.48550/arXiv.2208.01787
+
+- title: "Formalizing and guaranteeing human-robot interaction"
+  authors: "Hadas Kress-Gazit, Kerstin Eder, Guy Hoffman, Henny Admoni, Brenna Argall, Rüdiger Ehlers, Christoffer Heckman, Nils Jansen 0001, Ross A. Knepper, Jan Kretínský, Shelly Levy-Tzedek, Jamy Li, Todd D. Murphey, Laurel D. Riek, Dorsa Sadigh"
+  venue: "Commun. ACM"
+  year: 2021
+  url: https://doi.org/10.1145/3433637
+
+- title: "Human-Aware Reinforcement Learning for Fault Recovery Using Contextual Gaussian Processes"
+  authors: "Steve McGuire, P. Michael Furlong, Christoffer Heckman, Simon Julier, Nisar R. Ahmed"
+  venue: "J. Aerosp. Inf. Syst."
+  year: 2021
+  url: https://doi.org/10.2514/1.i010921
+
+- title: "A Real-Time State Dependent Region Estimator for Autonomous Endoscope Navigation"
+  authors: "Joseph Micah Prendergast, Gregory A. Formosa, Mitchell J. Fulton, Christoffer R. Heckman, Mark E. Rentschler"
+  venue: "IEEE Trans. Robotics"
+  year: 2021
+  url: https://doi.org/10.1109/TRO.2020.3038709
+
+- title: "Time Dependence in Kalman Filter Tuning"
+  authors: "Zhaozhong Chen, Christoffer Heckman, Simon Julier, Nisar R. Ahmed"
+  venue: "FUSION"
+  year: 2021
+  url: https://ieeexplore.ieee.org/document/9626864
+
+- title: "Robust Pose Estimation Based on Normalized Information Distance"
+  authors: "Zhaozhong Chen, Christoffer Heckman"
+  venue: "IROS"
+  year: 2021
+  url: https://doi.org/10.1109/IROS51168.2021.9636532
+
+- title: "A Mixed Reality Supervision and Telepresence Interface for Outdoor Field Robotics"
+  authors: "Michael E. Walker, Zhaozhong Chen, Matthew Whitlock, David Blair, Danielle Albers Szafir, Christoffer Heckman, Daniel Szafir"
+  venue: "IROS"
+  year: 2021
+  url: https://doi.org/10.1109/IROS51168.2021.9636090
+
+- title: "Deformable Bayesian Convolutional Networks for Disease-Robust Cardiac MRI Segmentation"
+  authors: "Mitchell J. Fulton, Christoffer R. Heckman, Mark E. Rentschler"
+  venue: "STACOM@MICCAI"
+  year: 2021
+  url: https://doi.org/10.1007/978-3-030-93722-5_32
+
+- title: "ColoRadar: The Direct 3D Millimeter Wave Radar Dataset"
+  authors: "Andrew Kramer, Kyle Harlow, Christopher Williams, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2021
+  url: https://arxiv.org/abs/2103.04510
+
+- title: "Time Dependence in Kalman Filter Tuning"
+  authors: "Zhaozhong Chen, Christoffer Heckman, Simon Julier, Nisar R. Ahmed"
+  venue: "CoRR"
+  year: 2021
+  url: https://arxiv.org/abs/2108.10712
+
+- title: "Multi-Agent Autonomy: Advancements and Challenges in Subterranean Exploration"
+  authors: "Michael T. Ohradzansky, Eugene R. Rush, Danny G. Riley, Andrew B. Mills, Shakeeb Ahmad, Steve McGuire, Harel Biggie, Kyle Harlow, Michael J. Miles, Eric W. Frew, Christoffer Heckman, J. Sean Humbert"
+  venue: "CoRR"
+  year: 2021
+  url: https://arxiv.org/abs/2110.04390
+
+- title: "Distributed Reinforcement Learning for Cooperative Multi-Robot Object Manipulation"
+  authors: "Guohui Ding 0002, Joewie J. Koh, Kelly Merckaert, Bram Vanderborght, Marco M. Nicotra, Christoffer Heckman, Alessandro Roncone, Lijun Chen 0001"
+  venue: "AAMAS"
+  year: 2020
+  url: https://dl.acm.org/doi/10.5555/3398761.3398997
+
+- title: "Unsupervised Metric Relocalization Using Transform Consistency Loss"
+  authors: "Mike Kasper, Fernando Nobre, Christoffer Heckman, Nima Keivan"
+  venue: "CoRL"
+  year: 2020
+  url: https://proceedings.mlr.press/v155/kasper21a.html
+
+- title: "Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments"
+  authors: "Andrew Kramer, Carl Stahoviak, Angel Santamaria-Navarro, Ali-akbar Agha-mohammadi, Christoffer Heckman"
+  venue: "ICRA"
+  year: 2020
+  url: https://doi.org/10.1109/ICRA40945.2020.9196666
+
+- title: "Better Together: Online Probabilistic Clique Change Detection in 3D Landmark-Based Maps"
+  authors: "Samuel Bateman, Kyle Harlow, Christoffer Heckman"
+  venue: "IROS"
+  year: 2020
+  url: https://doi.org/10.1109/IROS45743.2020.9341789
+
+- title: "Cooperative Control of Mobile Robots with Stackelberg Learning"
+  authors: "Joewie J. Koh, Guohui Ding 0002, Christoffer Heckman, Lijun Chen 0001, Alessandro Roncone"
+  venue: "IROS"
+  year: 2020
+  url: https://doi.org/10.1109/IROS45743.2020.9341376
+
+- title: "Radar-Inertial State Estimation and Obstacle Detection for Micro-Aerial Vehicles in Dense Fog"
+  authors: "Andrew Kramer, Christoffer Heckman"
+  venue: "ISER"
+  year: 2020
+  url: https://doi.org/10.1007/978-3-030-71151-1_1
+
+- title: "Leveraging Non-Specialists for Accurate and Time Efficient AMR Annotation"
+  authors: "Mary Martin, Cecilia Mauceri, Martha Palmer, Christoffer Heckman"
+  venue: "CLLRD@LREC"
+  year: 2020
+  url: https://aclanthology.org/2020.cllrd-1.5/
+
+- title: "Distributed Reinforcement Learning for Cooperative Multi-Robot Object Manipulation"
+  authors: "Guohui Ding 0002, Joewie J. Koh, Kelly Merckaert, Bram Vanderborght, Marco M. Nicotra, Christoffer Heckman, Alessandro Roncone, Lijun Chen 0001"
+  venue: "CoRR"
+  year: 2020
+  url: https://arxiv.org/abs/2003.09540
+
+- title: "Formalizing and Guaranteeing* Human-Robot Interaction"
+  authors: "Hadas Kress-Gazit, Kerstin Eder, Guy Hoffman, Henny Admoni, Brenna Argall, Rüdiger Ehlers, Christoffer Heckman, Nils Jansen 0001, Ross A. Knepper, Jan Kretínský, Shelly Levy-Tzedek, Jamy Li, Todd D. Murphey, Laurel D. Riek, Dorsa Sadigh"
+  venue: "CoRR"
+  year: 2020
+  url: https://arxiv.org/abs/2006.16732
+
+- title: "Better Together: Online Probabilistic Clique Change Detection in 3D Landmark-Based Maps"
+  authors: "Samuel Bateman, Kyle Harlow, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2020
+  url: https://arxiv.org/abs/2008.00372
+
+- title: "Cooperative Control of Mobile Robots with Stackelberg Learning"
+  authors: "Joewie J. Koh, Guohui Ding 0002, Christoffer Heckman, Lijun Chen 0001, Alessandro Roncone"
+  venue: "CoRR"
+  year: 2020
+  url: https://arxiv.org/abs/2008.00679
+
+- title: "Unsupervised Metric Relocalization Using Transform Consistency Loss"
+  authors: "Mike Kasper, Fernando Nobre, Christoffer Heckman, Nima Keivan"
+  venue: "CoRR"
+  year: 2020
+  url: https://arxiv.org/abs/2011.00608
+
+- title: "Materials that make robots smart"
+  authors: "Dana Hughes 0001, Christoffer Heckman, Nikolaus Correll"
+  venue: "Int. J. Robotics Res."
+  year: 2019
+  url: https://doi.org/10.1177/0278364919856099
+
+- title: "Learning to calibrate: Reinforcement learning for guided calibration of visual-inertial rigs"
+  authors: "Fernando Nobre, Christoffer Heckman"
+  venue: "Int. J. Robotics Res."
+  year: 2019
+  url: https://doi.org/10.1177/0278364919844824
+
+- title: "Everybody Needs Somebody Sometimes: Validation of Adaptive Recovery in Robotic Space Operations"
+  authors: "Steve McGuire, P. Michael Furlong, Terry Fong, Christoffer Heckman, Daniel Szafir, Simon J. Julier, Nisar R. Ahmed"
+  venue: "IEEE Robotics Autom. Lett."
+  year: 2019
+  url: https://doi.org/10.1109/LRA.2019.2894381
+
+- title: "Multiple Point Light Estimation from Low-Quality 3D Reconstructions"
+  authors: "Mike Kasper, Christoffer Heckman"
+  venue: "3DV"
+  year: 2019
+  url: https://doi.org/10.1109/3DV.2019.00086
+
+- title: "VI-SLAM for Subterranean Environments"
+  authors: "Andrew Kramer, Mike Kasper, Christoffer Heckman"
+  venue: "FSR"
+  year: 2019
+  url: https://doi.org/10.1007/978-981-15-9460-1_12
+
+- title: "Scalable Event-Triggered Data Fusion for Autonomous Cooperative Swarm Localization"
+  authors: "Ian Loefgren, Nisar R. Ahmed, Eric W. Frew, Christoffer Heckman, J. Sean Humbert"
+  venue: "FUSION"
+  year: 2019
+  url: https://ieeexplore.ieee.org/document/9011247
+
+- title: "SUN-Spot: An RGB-D Dataset With Spatial Referring Expressions"
+  authors: "Cecilia Mauceri, Martha Palmer, Christoffer Heckman"
+  venue: "ICCV Workshops"
+  year: 2019
+  url: https://doi.org/10.1109/ICCVW.2019.00236
+
+- title: "Robust low-overlap 3-D point cloud registration for outlier rejection"
+  authors: "John Stechschulte, Nisar R. Ahmed, Christoffer Heckman"
+  venue: "ICRA"
+  year: 2019
+  url: https://doi.org/10.1109/ICRA.2019.8793857
+
+- title: "A Benchmark for Visual-Inertial Odometry Systems Employing Onboard Illumination"
+  authors: "Mike Kasper, Steve McGuire, Christoffer Heckman"
+  venue: "IROS"
+  year: 2019
+  url: https://doi.org/10.1109/IROS40897.2019.8968554
+
+- title: "Embedded Neural Networks for Robot Autonomy"
+  authors: "Sarah Aguasvivas Manzano, Dana T. Hughes, Cooper R. Simpson, Radhen Patel, Christoffer Heckman, Nikolaus Correll"
+  venue: "ISRR"
+  year: 2019
+  url: https://doi.org/10.1007/978-3-030-95459-8_15
+
+- title: "SUN-Spot Referring Expressions Dataset"
+  authors: "Cecilia Mauceri, Martha Palmer, Christoffer Heckman"
+  venue: "Zenodo"
+  year: 2019
+  url: https://doi.org/10.5281/zenodo.14693339
+
+- title: "FastCal: Robust Online Self-Calibration for Robotic Systems"
+  authors: "Fernando Nobre, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2019
+  url: http://arxiv.org/abs/1902.10585
+
+- title: "Kalman Filter Tuning with Bayesian Optimization"
+  authors: "Zhaozhong Chen, Nisar R. Ahmed, Simon Julier, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2019
+  url: http://arxiv.org/abs/1912.08601
+
+- title: "Failure is Not an Option: Policy Learning for Adaptive Recovery in Space Operations"
+  authors: "Steve McGuire, P. Michael Furlong, Christoffer Heckman, Simon Julier, Daniel Szafir, Nisar R. Ahmed"
+  venue: "IEEE Robotics Autom. Lett."
+  year: 2018
+  url: https://doi.org/10.1109/LRA.2018.2801468
+
+- title: "Weak in the NEES?: Auto-Tuning Kalman Filters with Bayesian Optimization"
+  authors: "Zhaozhong Chen, Christoffer Heckman, Simon Julier, Nisar R. Ahmed"
+  venue: "FUSION"
+  year: 2018
+  url: https://doi.org/10.23919/ICIF.2018.8454982
+
+- title: "Online System Identification and Calibration of Dynamic Models for Autonomous Ground Vehicles"
+  authors: "Sina Aghli, Christoffer Heckman"
+  venue: "ICRA"
+  year: 2018
+  url: https://doi.org/10.1109/ICRA.2018.8460691
+
+- title: "Online Probabilistic Change Detection in Feature-Based Maps"
+  authors: "Fernando Nobre, Christoffer R. Heckman, Paul Ozog, Ryan W. Wolcott, Jeffrey M. Walls"
+  venue: "ICRA"
+  year: 2018
+  url: https://doi.org/10.1109/ICRA.2018.8461111
+
+- title: "Game-Theoretic Cooperative Lane Changing Using Data-Driven Models"
+  authors: "Guohui Ding 0002, Sina Aghli, Christoffer Heckman, Lijun Chen 0001"
+  venue: "IROS"
+  year: 2018
+  url: https://doi.org/10.1109/IROS.2018.8593725
+
+- title: "Autonomous Localization, Navigation and Haustral Fold Detection for Robotic Endoscopy"
+  authors: "Joseph Micah Prendergast, Gregory A. Formosa, Christoffer R. Heckman, Mark E. Rentschler"
+  venue: "IROS"
+  year: 2018
+  url: https://doi.org/10.1109/IROS.2018.8594106
+
+- title: "Path-Following through Control Funnel Functions"
+  authors: "Hadi Ravanbakhsh, Sina Aghli, Christoffer Heckman, Sriram Sankaranarayanan 0001"
+  venue: "IROS"
+  year: 2018
+  url: https://doi.org/10.1109/IROS.2018.8593637
+
+- title: "FastCal: Robust Online Self-calibration for Robotic Systems"
+  authors: "Fernando Nobre, Christoffer R. Heckman"
+  venue: "ISER"
+  year: 2018
+  url: https://doi.org/10.1007/978-3-030-33950-0_63
+
+- title: "Path-Following through Control Funnel Functions"
+  authors: "Hadi Ravanbakhsh, Sina Aghli, Christoffer Heckman, Sriram Sankaranarayanan 0001"
+  venue: "CoRR"
+  year: 2018
+  url: http://arxiv.org/abs/1804.05288
+
+- title: "Weak in the NEES?: Auto-tuning Kalman Filters with Bayesian Optimization"
+  authors: "Zhaozhong Chen, Christoffer Heckman, Simon Julier, Nisar R. Ahmed"
+  venue: "CoRR"
+  year: 2018
+  url: http://arxiv.org/abs/1807.08855
+
+- title: "Extrinisic Calibration of a Camera-Arm System Through Rotation Identification"
+  authors: "Steve McGuire, Christoffer Heckman, Daniel Szafir, Simon Julier, Nisar R. Ahmed"
+  venue: "CoRR"
+  year: 2018
+  url: http://arxiv.org/abs/1812.08280
+
+- title: "Drift-correcting self-calibration for visual-inertial SLAM"
+  authors: "Fernando Nobre, Michael Kasper, Christoffer R. Heckman"
+  venue: "ICRA"
+  year: 2017
+  url: https://doi.org/10.1109/ICRA.2017.7989771
+
+- title: "Materials That Make Robots Smart"
+  authors: "Nikolaus Correll, Christoffer Heckman"
+  venue: "ISRR"
+  year: 2017
+  url: https://doi.org/10.1007/978-3-030-28619-4_6
+
+- title: "Reinforcement Learning for Assisted Visual-Inertial Robotic Calibration"
+  authors: "Fernando Nobre, Christoffer Heckman"
+  venue: "ISRR"
+  year: 2017
+  url: https://doi.org/10.1007/978-3-030-28619-4_36
+
+- title: "Light Source Estimation with Analytical Path-tracing"
+  authors: "Mike Kasper, Nima Keivan, Gabe Sibley, Christoffer R. Heckman"
+  venue: "CoRR"
+  year: 2017
+  url: http://arxiv.org/abs/1701.04101
+
+- title: "Materials that make robots smart"
+  authors: "Nikolaus Correll, Christoffer R. Heckman"
+  venue: "CoRR"
+  year: 2017
+  url: http://arxiv.org/abs/1711.00537
+
+- title: "Hidden Markov Random Field Iterative Closest Point"
+  authors: "John Stechschulte, Christoffer Heckman"
+  venue: "CoRR"
+  year: 2017
+  url: http://arxiv.org/abs/1711.05864
+
+- title: "Light Source Estimation in Synthetic Images"
+  authors: "Mike Kasper, Nima Keivan, Gabe Sibley, Christoffer R. Heckman"
+  venue: "ECCV Workshops"
+  year: 2016
+  url: https://doi.org/10.1007/978-3-319-49409-8_72
+
+- title: "Multi-Sensor SLAM with Online Self-Calibration and Change Detection"
+  authors: "Fernando Nobre, Christoffer R. Heckman, Gabe T. Sibley"
+  venue: "ISER"
+  year: 2016
+  url: https://doi.org/10.1007/978-3-319-50115-4_66
+
+- title: "Toward efficient navigation in uncertain gyre-like flows"
+  authors: "Christoffer R. Heckman, Ira B. Schwartz, M. Ani Hsieh"
+  venue: "Int. J. Robotics Res."
+  year: 2015
+  url: https://doi.org/10.1177/0278364915585396
+
+- title: "Small and Adrift with Self-Control: Using the Environment to Improve Autonomy"
+  authors: "M. Ani Hsieh, Hadi Hajieghrary, Dhanushka Kularatne, Christoffer R. Heckman, Eric Forgoston, Ira B. Schwartz, Philip A. Yecko"
+  venue: "ISRR"
+  year: 2015
+  url: https://doi.org/10.1007/978-3-319-60916-4_22
+
+- title: "Controlling Basin Breakout for Robots Operating in Uncertain Flow Environments"
+  authors: "Christoffer R. Heckman, M. Ani Hsieh, Ira B. Schwartz"
+  venue: "ISER"
+  year: 2014
+  url: https://doi.org/10.1007/978-3-319-23778-7_37
+

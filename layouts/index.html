@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  {{ partial "nav.html" . }}
+  {{ partial "hero.html" . }}
+  {{ partial "research.html" . }}
+  {{ partial "people.html" . }}
+  {{ partial "publications.html" . }}
+  {{ partial "footer.html" . }}
+  {{ $js := resources.Get "js/main.js" | minify | fingerprint }}
+  <script>{{ $js.Content | safeJS }}</script>
+</body>
+</html>

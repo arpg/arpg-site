@@ -687,3 +687,272 @@ img {
     column-count: 1;
   }
 }
+
+/* ====== ARTICLE PAGES ====== */
+
+.article {
+  padding: 4rem 0 5rem;
+}
+
+.article-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.article-title {
+  color: var(--cu-black);
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid var(--cu-gold);
+  padding-bottom: 0.75rem;
+}
+
+.article h2, .article h3, .article h4 {
+  color: var(--cu-black);
+  margin: 2rem 0 0.75rem;
+  line-height: 1.3;
+}
+
+.article h2 { font-size: 1.6rem; }
+.article h3 { font-size: 1.25rem; }
+
+.article p, .article ul, .article ol {
+  margin-bottom: 1rem;
+}
+
+.article ul, .article ol {
+  padding-left: 1.5rem;
+}
+
+.article table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+  display: block;
+  overflow-x: auto;
+}
+
+.article th, .article td {
+  border: 1px solid var(--cu-light-gray);
+  padding: 0.4rem 0.75rem;
+  text-align: left;
+}
+
+.article th {
+  background: var(--cu-cream);
+  color: var(--cu-black);
+}
+
+.article img {
+  border-radius: 6px;
+  margin: 0.5rem 0;
+}
+
+.article blockquote {
+  border-left: 4px solid var(--cu-gold);
+  padding-left: 1rem;
+  color: var(--cu-dark-gray);
+  margin: 1rem 0;
+}
+
+.article pre, .article code {
+  background: var(--cu-cream);
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.article pre {
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.article pre code {
+  background: none;
+  padding: 0;
+}
+
+.article code {
+  padding: 0.1em 0.35em;
+}
+
+.article iframe {
+  max-width: 100%;
+  margin: 0.5rem 0 1rem;
+}
+
+/* Card grid for OIVIO environments / dataset galleries */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.card {
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--cu-white);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 0;
+  margin: 0;
+}
+
+.card-body {
+  padding: 0.85rem 1rem;
+}
+
+.card-body h4 {
+  margin: 0 0 0.35rem;
+  color: var(--cu-black);
+}
+
+.card-body p {
+  font-size: 0.85rem;
+  margin-bottom: 0.35rem;
+}
+
+/* Simple image gallery (restorebot) */
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* ====== PAPER PAGES ====== */
+
+.paper-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.paper-title {
+  color: var(--cu-black);
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+.paper-authors {
+  margin-bottom: 0.75rem;
+}
+
+.paper-author {
+  display: inline-block;
+  margin: 0 0.5rem 0.25rem;
+  font-weight: 600;
+  color: var(--cu-black);
+}
+
+.paper-links {
+  font-size: 1.1rem;
+}
+
+.paper-news {
+  text-align: left;
+  background: var(--cu-cream);
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.paper-news h3 {
+  margin: 0 0 0.5rem;
+}
+
+.paper-news ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+/* ====== SUNSPOT GALLERY ====== */
+
+.sunspot-example {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  margin: 1.5rem 0;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.sunspot-img img {
+  width: 100%;
+}
+
+.sunspot-object {
+  text-align: center;
+  font-weight: 600;
+  color: var(--cu-black);
+}
+
+@media (max-width: 700px) {
+  .sunspot-example {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ====== OIVIO TRAJECTORIES ====== */
+
+.oivio-traj {
+  margin: 2rem 0;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.oivio-traj-head {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.oivio-traj-pic {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border: 1px solid var(--cu-light-gray);
+  flex-shrink: 0;
+}
+
+.oivio-traj-head p {
+  margin-bottom: 0.2rem;
+}
+
+/* ====== NEWS LIST ====== */
+
+.news-item {
+  margin: 2rem 0;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.news-item h2 {
+  margin-bottom: 0.25rem;
+}
+
+.news-date {
+  color: var(--cu-light-gray);
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+}

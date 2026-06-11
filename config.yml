@@ -6,3 +6,11 @@ enableRobotsTXT: true
 params:
   description: "Autonomous Robotics and Perception Group at the University of Colorado Boulder"
   author: "Christoffer Heckman"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3

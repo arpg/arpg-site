@@ -1,0 +1,6 @@
+---
+title: "ICCV Workshop Paper Accepted"
+date: 2019-08-16
+---
+
+Cecilia Mauceri's paper "SUN-Spot: An RGB-D dataset with spatial referring expressions" will be presented at ICCV19 CLVL: 3rd Workshop on Closing the Loop Between Vision and Language.

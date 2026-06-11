@@ -1,0 +1,16 @@
+<div class="card-grid">
+{{ range site.Data.oivio.environments }}
+  <div class="card">
+    <a href="/oivio/trajectories/#{{ anchorize .name }}">
+      <img src="/img/oivio/{{ .pic }}" alt="{{ .name }}" loading="lazy">
+    </a>
+    <div class="card-body">
+      <h4>{{ .name }}</h4>
+      <p>{{ .location | safeHTML }}</p>
+      {{ with .desc }}<p>{{ . }}</p>{{ end }}
+      <p>Trajectories: {{ .count }}</p>
+      <p><a href="/oivio/trajectories/#{{ anchorize .name }}">Downloads &rarr;</a></p>
+    </div>
+  </div>
+{{ end }}
+</div>

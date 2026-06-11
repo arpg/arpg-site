@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  {{ partial "nav.html" . }}
+  <main class="article">
+    <div class="article-inner">
+      <h1 class="article-title">{{ .Title }}</h1>
+      {{ .Content }}
+      {{ range .Pages.ByDate.Reverse }}
+      <article class="news-item">
+        <h2>{{ .Title }}</h2>
+        <p class="news-date">{{ .Date.Format "January 2, 2006" }}</p>
+        {{ .Content }}
+      </article>
+      {{ end }}
+    </div>
+  </main>
+  {{ partial "footer.html" . }}
+  {{ $js := resources.Get "js/main.js" | minify | fingerprint }}
+  <script>{{ $js.Content | safeJS }}</script>
+</body>
+</html>

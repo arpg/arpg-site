@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  {{ partial "nav.html" . }}
+  <main class="article">
+    <div class="article-inner">
+      <div class="paper-header">
+        <h1 class="paper-title"><strong>{{ .Params.title_main }}</strong> {{ .Params.title_follow }}</h1>
+        {{ with .Params.authors }}
+        <p class="paper-authors">
+          {{ range . }}<span class="paper-author">{{ . }}</span> {{ end }}
+        </p>
+        {{ end }}
+        {{ with .Params.links }}
+        <p class="paper-links">
+          {{ range $i, $l := . }}{{ if gt $i 0 }} <strong>|</strong> {{ end }}<a href="{{ $l.url }}">{{ $l.text }}</a>{{ end }}
+        </p>
+        {{ end }}
+        {{ with .Params.news }}
+        <div class="paper-news">
+          <h3>News</h3>
+          <ul>
+            {{ range . }}<li>{{ . | markdownify }}</li>{{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      </div>
+      {{ .Content }}
+    </div>
+  </main>
+  {{ partial "footer.html" . }}
+  {{ $js := resources.Get "js/main.js" | minify | fingerprint }}
+  <script>{{ $js.Content | safeJS }}</script>
+</body>
+</html>

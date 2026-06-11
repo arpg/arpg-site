@@ -1,0 +1,35 @@
+{{ range $env := site.Data.oivio.environments }}
+<h2 id="{{ anchorize $env.name }}">Environment: {{ $env.name }}</h2>
+<img src="/img/oivio/{{ $env.pic }}" alt="{{ $env.name }}" loading="lazy">
+
+{{ range $traj := site.Data.oivio.trajectories }}
+{{ if eq $traj.env $env.name }}
+<div class="oivio-traj">
+  <div class="oivio-traj-head">
+    {{ with $traj.pic }}<img class="oivio-traj-pic" src="/img/oivio/{{ . }}" alt="{{ $traj.name }}" loading="lazy">{{ end }}
+    <div>
+      <h3>{{ $traj.name }}</h3>
+      {{ with $traj.duration }}<p>Average Duration: {{ . }}s</p>{{ end }}
+      {{ with $traj.length }}<p>Average Length: {{ . }}m</p>{{ end }}
+      {{ with $traj.speed }}<p>Average Speed: {{ . }}m/s</p>{{ end }}
+    </div>
+  </div>
+  <table>
+    <thead>
+      <tr><th>Light</th><th>File</th><th>Size</th><th>MD5 Checksum</th></tr>
+    </thead>
+    <tbody>
+      {{ range $traj.instances }}
+      <tr>
+        <td>{{ .light }}%</td>
+        <td><a href="https://drive.google.com/a/colorado.edu/uc?id={{ .url }}&amp;export=download">{{ .file }}</a></td>
+        <td>{{ .size }}GB</td>
+        <td>{{ .md5 }}</td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</div>
+{{ end }}
+{{ end }}
+{{ end }}

@@ -1,0 +1,19 @@
+<div class="sunspot-gallery">
+{{ range site.Data.sunspot_visualization }}
+  <div class="sunspot-example">
+    <div class="sunspot-img">
+      <img src="{{ .url }}" alt="{{ .object }}" loading="lazy">
+      <p class="sunspot-object">{{ .object }}</p>
+    </div>
+    <ul class="sunspot-refexps">
+      {{ range .refexps }}
+        {{ if reflect.IsSlice . }}
+          {{ range . }}<li>{{ . }}</li>{{ end }}
+        {{ else }}
+          <li>{{ . }}</li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}
+</div>

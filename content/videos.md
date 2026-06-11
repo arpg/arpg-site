@@ -1,5 +1,5 @@
 ---
-title: "ARPG Videos"
+title: "Videos"
 ---
 
 

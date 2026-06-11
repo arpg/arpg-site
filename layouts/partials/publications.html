@@ -1,6 +1,6 @@
 <section id="publications" class="section">
   <div class="container">
-    <h2 class="section-title fade-in">Publications</h2>
+    <h2 class="section-title fade-in">Recent Publications</h2>
     <div class="section-divider fade-in"></div>
 
     {{ $pubs := .Site.Data.publications }}
@@ -8,19 +8,15 @@
     {{ range $pubs }}
       {{ $years = $years | append .year }}
     {{ end }}
-    {{ $years = $years | uniq | sort | complement (slice) }}
+    {{ $recent := first 2 (sort ($years | uniq) "value" "desc") }}
+    {{ $recentPubs := slice }}
+    {{ range $pubs }}
+      {{ if in $recent .year }}{{ $recentPubs = $recentPubs | append . }}{{ end }}
+    {{ end }}
+    {{ partial "pub-list.html" (dict "pubs" $recentPubs) }}
 
-    {{ range $year := sort ($years | uniq) "value" "desc" }}
-    <div class="pub-year fade-in">{{ $year }}</div>
-    {{ range where $pubs "year" $year }}
-    <div class="pub-entry fade-in">
-      <div class="pub-title">
-        {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
-      </div>
-      <div class="pub-authors">{{ .authors }}</div>
-      {{ with .venue }}<div class="pub-venue">{{ . }}</div>{{ end }}
-    </div>
-    {{ end }}
-    {{ end }}
+    <p class="pub-all-link fade-in">
+      <a href="/publications/">View all {{ len $pubs }} publications &rarr;</a>
+    </p>
   </div>
 </section>

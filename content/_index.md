@@ -1,3 +1,3 @@
 ---
-title: "ARPG"
+title: "Autonomous Robotics and Perception Group"
 ---

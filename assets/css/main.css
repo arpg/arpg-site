@@ -956,3 +956,10 @@ img {
   font-size: 0.85rem;
   margin-bottom: 0.75rem;
 }
+
+.pub-all-link {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.05rem;
+  font-weight: 600;
+}

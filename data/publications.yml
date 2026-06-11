@@ -1,3 +1,33 @@
+- title: "Transformer-based learning models of dynamical systems for robotic state prediction"
+  authors: "Alec Reed, Doncey Albin, Anuh Pasricha, Alessandro Roncone, Christoffer Heckman"
+  venue: "TBD"
+  year: 2024
+  url: https://www.researchsquare.com/article/rs-3919154/latest
+
+- title: "Belief Consistency Between Foundation-Model Evidence and Geometric Perception in Persistent Robotic Maps"
+  authors: "Christoffer Heckman, Harel Biggie, Brendan Crowe, Nicholas Roy"
+  venue: "arXiv preprint arXiv:2606.00318"
+  year: 2026
+  url: https://arxiv.org/abs/2606.00318
+
+- title: "SceneGraphGrounder: Zero-Shot 3D Visual Grounding via Structured Scene Graph Matching"
+  authors: "Xuefei Sun, Xujia Zhang, Brendan Crowe, Doncey Albin, Christoffer Heckman"
+  venue: "arXiv preprint arXiv:2605.21788"
+  year: 2026
+  url: https://arxiv.org/abs/2605.21788
+
+- title: "Weather-Robust Scene Semantics with Vision-Aligned 4D Radar"
+  authors: "Kali Hamilton, Christoffer Heckman"
+  venue: "arXiv preprint arXiv:2605.07367"
+  year: 2026
+  url: https://arxiv.org/pdf/2605.07367
+
+- title: "CAREER: Radar-based Perception and Navigation in Visually Degraded Environments"
+  authors: "Christoffer R Heckman"
+  venue: "NSF Award Number 2339328. Directorate for Computer and Information Science and Engineering"
+  year: 2024
+  url: https://ui.adsabs.harvard.edu/abs/2024nsf....2339328H/abstract
+
 - title: "Radar SLAM (Chapter 9, SLAM Handbook)"
   authors: "Martin Magnusson, Christoffer Heckman, Henrik Andreasson, Ayoung Kim, Timothy Barfoot, Michael Kaess, Paul Newman"
   venue: "Cambridge University Press"

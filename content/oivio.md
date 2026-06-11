@@ -19,7 +19,8 @@ format, though our dataset additionally provides files for the photometric
 camera calibration and light calibration. Each sequence is available at
 full-resolution and separated into its own tarball.
 
-[[Trajectories Download]](/oivio/trajectories/)
+> **Note:** Trajectory downloads are temporarily unavailable while we verify the
+> dataset hosting. Please [contact us](/contact/) if you need access in the meantime.
 
 Use the provided
 [script](https://drive.google.com/uc?export=download&amp;id=1Aak0eQJVv0itUu0BR7VC9fzK7XKhtpZP)

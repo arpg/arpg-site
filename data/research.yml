@@ -1,4 +1,5 @@
 - title: "Generative Geometry for Robot Autonomy"
+  page: /scenesense/
   description: "We develop diffusion-based generative models that synthesize 3D occupancy and semantic geometry from partial observations, enabling robots to predict and plan through unseen space."
   image: /img/research/scenesense.png
   github: https://github.com/arpg/SceneSense
@@ -29,6 +30,7 @@
       url:
 
 - title: "Vision-Language Understanding & Navigation"
+  page: /sunspot/
   description: "From the SUN-Spot dataset to Spatial-LLaVA, we advance how robots understand spatial language, ground referring expressions in visual scenes, and navigate from natural language instructions."
   image: /img/research/langnav.png
   papers:
@@ -62,6 +64,7 @@
       url: https://doi.org/10.1109/ICCVW.2019.00236
 
 - title: "Multi-Robot Collaborative Perception"
+  page: /cumulti/
   description: "Building datasets and algorithms for multi-robot data association and collaborative perception in heterogeneous robot teams."
   image: /img/research/multirobot.png
   papers:
@@ -79,6 +82,7 @@
       url: https://arxiv.org/abs/2306.04570
 
 - title: "Millimeter Wave RADAR Perception"
+  page: /coloradar/
   description: "Pioneering the use of mmWave RADAR as a primary perception modality for robotics, from datasets to dense mapping in degraded visual conditions."
   image: /img/research/radar.png
   papers:

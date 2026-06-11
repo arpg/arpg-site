@@ -8,15 +8,18 @@
       {{ range .Site.Data.research }}
       <div class="featured-card fade-in">
         <div class="featured-image">
+          {{ if .page }}<a href="{{ .page }}">{{ end }}
           {{ if .image }}
           <img src="{{ .image }}" alt="{{ .title }}" loading="lazy">
           {{ else }}
           <div class="featured-image-placeholder">{{ .title }}</div>
           {{ end }}
+          {{ if .page }}</a>{{ end }}
         </div>
         <div class="featured-body">
-          <h3>{{ .title }}</h3>
+          <h3>{{ if .page }}<a href="{{ .page }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h3>
           <p class="featured-desc">{{ .description }}</p>
+          {{ with .page }}<a href="{{ . }}" class="featured-link">Project page &rarr;</a>{{ end }}
           {{ with .github }}<a href="{{ . }}" class="featured-link" target="_blank" rel="noopener">GitHub &rarr;</a>{{ end }}
           {{ if .papers }}
           <ul class="featured-papers">
@@ -37,7 +40,8 @@
     <h3 class="past-research-heading fade-in">Past Research</h3>
     <div class="research-grid past-grid">
       {{ range .Site.Data.past_research }}
-      <div class="research-card past-card fade-in">
+      <div class="research-card past-card fade-in{{ if .page }} card-linked{{ end }}">
+        {{ if .page }}<a class="card-cover-link" href="{{ .page }}" aria-label="{{ .title }}"></a>{{ end }}
         {{ if .image }}
         <img src="{{ .image }}" alt="{{ .title }}" loading="lazy">
         {{ end }}
@@ -45,9 +49,11 @@
           <h3>{{ .title }}</h3>
           <p>{{ .description }}</p>
           {{ with .funding }}<div class="funding">{{ . }}</div>{{ end }}
+          {{ if .page }}<div class="card-more">Project page &rarr;</div>{{ end }}
         </div>
       </div>
       {{ end }}
     </div>
   </div>
 </section>
+{{ partial "datasets-strip.html" . }}

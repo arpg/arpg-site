@@ -2,6 +2,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ if .IsHome }}Autonomous Robotics and Perception Group | CU Boulder{{ else }}{{ .Title }} | Autonomous Robotics and Perception Group{{ end }}</title>
 <meta name="description" content="{{ .Site.Params.description }}">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:site_name" content="Autonomous Robotics and Perception Group">
+<meta property="og:title" content="{{ if .IsHome }}Autonomous Robotics and Perception Group | CU Boulder{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ "img/hero-husky.jpg" | absURL }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ "img/hero-husky.jpg" | absURL }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">

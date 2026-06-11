@@ -1,0 +1,19 @@
+<section id="datasets" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title fade-in">Datasets</h2>
+    <div class="section-divider fade-in"></div>
+    <p class="datasets-intro fade-in">We release the data behind our research — radar, lidar, visual-inertial, and RGB-D benchmarks collected in mines, campuses, deserts, and competition courses.</p>
+    <div class="dataset-strip">
+      {{ range site.Data.datasets_featured }}
+      <a class="dataset-card fade-in" href="{{ .page }}">
+        <img src="{{ .image }}" alt="{{ .title }}" loading="lazy">
+        <div class="dataset-card-body">
+          <h4>{{ .title }}</h4>
+          <p>{{ .blurb }}</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    <p class="pub-all-link fade-in"><a href="/datasets/">All datasets &amp; projects &rarr;</a></p>
+  </div>
+</section>

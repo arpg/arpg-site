@@ -1,0 +1,10 @@
+{{ $news := where site.RegularPages "Section" "news" }}
+{{ with index ($news.ByDate.Reverse) 0 }}
+<div class="news-banner">
+  <div class="container">
+    <span class="news-banner-label">News</span>
+    <span class="news-banner-text">{{ .Date.Format "Jan 2006" }} &mdash; {{ .Title }}</span>
+    <a class="news-banner-link" href="/news/">All news &rarr;</a>
+  </div>
+</div>
+{{ end }}

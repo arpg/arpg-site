@@ -1,4 +1,5 @@
 - title: "MARBLE: DARPA Subterranean Challenge"
+  page: /marble/
   description: "Multi-agent autonomy with RADAR-based localization for exploring underground environments. 3rd place, $500K prize."
   image: /img/research/subt_new.png
   funding: DARPA TTO
@@ -13,11 +14,13 @@
   image: /img/research/lightsource.png
 
 - title: "Autonomous Vehicles & Agile Control"
+  page: /cps-1646556/
   description: "Terrain-aware model predictive control, game-theoretic lane changing, and high-speed autonomous navigation through challenging terrain."
   image: /img/research/parkourcars.png
   funding: NSF #1646556
 
 - title: "RestoreBot"
+  page: /restorebot/
   description: "Autonomous multi-agent systems for targeted seed planting in degraded rangelands."
   image: /img/research/restorebot_new.jpg
   funding: USDA/NIFA

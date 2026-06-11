@@ -1,0 +1,29 @@
+- title: "ColoRadar"
+  page: /coloradar/
+  image: /img/coloradar_example.jpg
+  blurb: "52 sequences of 3D FMCW radar, lidar, and IMU in mines and urban environments."
+
+- title: "ColoRadar+"
+  page: /coloradarplus/
+  image: /img/coloradarplus/radar_rig.png
+  blurb: "Improved ground truth and RGB-D extension of ColoRadar."
+
+- title: "OIVIO"
+  page: /oivio/
+  image: /img/oivio/sensor-thumbnail.jpg
+  blurb: "Visual-inertial odometry with onboard illumination in dark environments."
+
+- title: "CU-Multi"
+  page: /cumulti/
+  image: /img/cumulti/main_image.png
+  blurb: "Multi-robot data association across CU Boulder campus."
+
+- title: "Canyonlands"
+  page: /canyonlands_dataset/
+  image: /img/canyonlands_dataset/main.png
+  blurb: "Seasonal field robotics data from the Canyonlands region."
+
+- title: "MARBLE SubT"
+  page: /marble/
+  image: /img/marble/husky.jpg
+  blurb: "Sensor data from the DARPA SubT Finals competition course."

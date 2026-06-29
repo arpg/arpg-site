@@ -58,39 +58,39 @@ links:
       </tr>
       <tr>
         <th style="border: 1px solid black; padding: 8px;"> LiDAR </th>
-        <td style="border: 1px solid black; padding: 8px;"> Ouster OS-64 </td>
-        <td style="border: 1px solid black; padding: 8px;"> 200 m range </td>
-        <td style="border: 1px solid black; padding: 8px;"> 64v x 1028h </td>
-        <td style="border: 1px solid black; padding: 8px;"> 45° x 360° </td>
+        <td style="border: 1px solid black; padding: 8px;"> Ouster OS1-64 </td>
+        <td style="border: 1px solid black; padding: 8px;"> 100 m range </td>
+        <td style="border: 1px solid black; padding: 8px;"> 64v x 1024h </td>
+        <td style="border: 1px solid black; padding: 8px;"> 33° x 360° </td>
         <td style="border: 1px solid black; padding: 8px;"> 20 Hz </td>
       </tr>
       <tr>
         <th style="border: 1px solid black; padding: 8px;"> RGB-D Camera </th>
-        <td style="border: 1px solid black; padding: 8px;"> Intel Realsense D455 </td>
-        <td style="border: 1px solid black; padding: 8px;"> RGB: Global Shutter </td>
-        <td style="border: 1px solid black; padding: 8px;"> 1280 × 800 </td>
-        <td style="border: 1px solid black; padding: 8px;">90° x 65° </td>
+        <td style="border: 1px solid black; padding: 8px;"> Intel RealSense D435 (fwd + down) </td>
+        <td style="border: 1px solid black; padding: 8px;"> RGB: rolling shutter </td>
+        <td style="border: 1px solid black; padding: 8px;"> 1280 × 720 </td>
+        <td style="border: 1px solid black; padding: 8px;">69° x 42° </td>
         <td style="border: 1px solid black; padding: 8px;"> 30 Hz </td>
       </tr>
       <tr>
         <th style="border: 1px solid black; padding: 8px;"> IMU</th>
-        <td style="border: 1px solid black; padding: 8px;"> MicroStrain 3DM-GQ7-GNSS/INS </td>
+        <td style="border: 1px solid black; padding: 8px;"> LORD MicroStrain 3DM-GX5-15 (VRU) </td>
         <td style="border: 1px solid black; padding: 8px;"> ±8 g </td>
         <td style="border: 1px solid black; padding: 8px;"> 300 dps </td>
         <td style="border: 1px solid black; padding: 8px;"> - </td>
         <td style="border: 1px solid black; padding: 8px;"> 400 Hz </td>
       </tr>
       <tr>
-        <th style="border: 1px solid black; padding: 8px;"> Network Interface Modem </th>
-        <td style="border: 1px solid black; padding: 8px;"> MicroStrain 3DM-RTK Modem </td>
-        <td style="border: 1px solid black; padding: 8px;"> 2 cm, 0.1° accuracy </td>
+        <th style="border: 1px solid black; padding: 8px;"> GPS / RTK </th>
+        <td style="border: 1px solid black; padding: 8px;"> Trimble BX922 + AG25 antenna </td>
+        <td style="border: 1px solid black; padding: 8px;"> 5 cm RTK/RTX (CenterPoint RTX) </td>
         <td style="border: 1px solid black; padding: 8px;"> - </td>
         <td style="border: 1px solid black; padding: 8px;"> - </td>
-        <td style="border: 1px solid black; padding: 8px;"> 2 Hz </td>
+        <td style="border: 1px solid black; padding: 8px;"> ~20 Hz </td>
       </tr>
       <tr>
-        <th style="border: 1px solid black; padding: 8px;"> GNSS Antennas </th>
-        <td style="border: 1px solid black; padding: 8px;"> u-blox ANN-MB-00 </td>
+        <th style="border: 1px solid black; padding: 8px;"> Survey Base </th>
+        <td style="border: 1px solid black; padding: 8px;"> Trimble SPS855 + Zephyr 3 </td>
         <td style="border: 1px solid black; padding: 8px;"> - </td>
         <td style="border: 1px solid black; padding: 8px;"> - </td>
         <td style="border: 1px solid black; padding: 8px;"> - </td>
@@ -98,8 +98,8 @@ links:
       </tr>
       <tr>
         <th style="border: 1px solid black; padding: 8px;"> Main Computer </th>
-        <td style="border: 1px solid black; padding: 8px;"> Intel NUC </td>
-        <td style="border: 1px solid black; padding: 8px;"> Intel i7 CPU @ 3.20GHz, 16GB RAM </td>
+        <td style="border: 1px solid black; padding: 8px;"> AMD Ryzen Threadripper 3990X + GTX 1650 </td>
+        <td style="border: 1px solid black; padding: 8px;"> 32-core CPU, GPU for real-time inference </td>
         <td style="border: 1px solid black; padding: 8px;"> - </td>
         <td style="border: 1px solid black; padding: 8px;"> - </td>
         <td style="border: 1px solid black; padding: 8px;"> - </td>
@@ -117,7 +117,7 @@ links:
   </div>
 
   <p style="text-align: justify; flex: 1;">
-      The Canyonlands dataset is broken into to separate data collection times: in November 2022 and May 2023.
+      The Canyonlands dataset is broken into to separate data collection times: in May 2022 and November 2022.
   </p>
 </div>
 

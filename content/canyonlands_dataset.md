@@ -9,8 +9,9 @@ authors:
   - "Christoffer Heckman"
 links:
   - { url: "https://github.com/suchkristenwow/CanyonlandsDataset", text: "GitHub" }
-  - { url: "https://drive.google.com/drive/folders/1W5xcQVJETsYlKwovsj7DfAhi3iAook8n?usp=sharing", text: "Download Dataset" }
 ---
+
+> **Dataset download:** the dataset is being migrated to long-term hosting on CU Research Computing (PetaLibrary); a permanent download link will be posted here shortly.
 
 
 <div style="text-align: justify; background-color:rgb(225, 225, 225); padding: 5px; border-radius: 5px;">

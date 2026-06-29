@@ -25,7 +25,7 @@ links:
     growth outcomes. Autonomous robots offer a solution to indentify and intervene based off these subtle features, but the
     lack of relevant data in these environments is a limiting factor to getting highly granular, multi-seasonal data necessary
     for testing ecological hypotheses. In this paper, we introduce the Canyonlands Dataset, a large-scale, multi-modal
-    dataset collected near to Canyonlands National Park in Southeastern Utah using an autonomous ground vehicle. The
+    dataset collected near to Canyonlands National Park in Southeastern Utah using a teleoperated ground vehicle. The
     dataset includes high-resolution camera imagery, RTK-GPS trajectories, 3D lidar point clouds, and ground-truth vehicle
     odometry. To support reproducibility and foster research in autonomous environmental monitoring and restoration, we
     provide detailed documentation, calibration files, and code for dataset interaction.

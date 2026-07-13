@@ -88,10 +88,18 @@ def main():
     this_year = datetime.date.today().year
     cutoff = this_year - LOOKBACK_YEARS
 
-    existing = yaml.safe_load(PUBS_FILE.read_text())
+    # Dedup against origin/main — the exact ref the PR is branched from — NOT the
+    # local working copy. After a sync PR merges on GitHub, nobody pulls the local
+    # repo, so a local read goes stale and re-proposes already-merged papers as
+    # "new" (they then get duplicated onto a base that already has them).
+    run(["git", "-C", str(REPO_DIR), "fetch", "origin", "main"])
+    existing = yaml.safe_load(
+        run(["git", "-C", str(REPO_DIR), "show",
+             "origin/main:data/publications.yml"]).stdout
+    )
     known = {normalize_title(p["title"]) for p in existing}
     ignore_norm = {normalize_title(t) for t in IGNORE_TITLES}
-    log(f"{len(existing)} existing publications loaded")
+    log(f"{len(existing)} existing publications loaded from origin/main")
 
     from scholarly import scholarly
 
@@ -158,6 +166,18 @@ def main():
         new_entries.append(entry)
         log(f"new: {entry['year']} | {entry['title'][:70]}")
 
+    # Safety net: never emit two entries with the same title in one PR (e.g. if
+    # Scholar lists a paper twice). Dedup by normalized title, keeping the first.
+    seen, deduped = set(), []
+    for e in new_entries:
+        n = normalize_title(e["title"])
+        if n in seen:
+            log(f"dropped duplicate title within this batch: {e['title'][:60]}")
+            continue
+        seen.add(n)
+        deduped.append(e)
+    new_entries = deduped
+
     if not new_entries:
         log("All candidates filtered out as non-papers. Nothing to do.")
         return 0
@@ -176,7 +196,7 @@ def main():
     block = "\n".join(fmt(e) for e in new_entries)
     branch = f"{PR_BRANCH_PREFIX}-{datetime.date.today():%Y%m%d}"
 
-    run(["git", "-C", str(REPO_DIR), "fetch", "origin", "main"])
+    # origin/main already fetched at the top (same ref the dedup read from).
     run(["git", "-C", str(REPO_DIR), "worktree", "add", "-B", branch,
          f"/tmp/{branch}", "origin/main"])
     try:

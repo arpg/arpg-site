@@ -8,6 +8,7 @@ there is nothing new or when a sync PR is already open.
 """
 
 import datetime
+import json
 import os
 import re
 import subprocess
@@ -137,11 +138,16 @@ def main():
     gh = bot_env()
 
     # Bail out if a previous sync PR is still open, instead of stacking PRs.
-    open_prs = run(["gh", "pr", "list", "--repo", "arpg/arpg-site",
-                    "--state", "open", "--search", PR_BRANCH_PREFIX,
-                    "--json", "number"], env=gh).stdout
-    if open_prs.strip() not in ("", "[]"):
-        log("A scholar-sync PR is already open; skipping until it is resolved.")
+    # Match on the actual branch name (scholar-sync-*), NOT a fuzzy text search —
+    # an unrelated PR that merely mentions "scholar sync" in its title/body must
+    # not block the weekly run.
+    open_json = run(["gh", "pr", "list", "--repo", "arpg/arpg-site",
+                     "--state", "open", "--json", "number,headRefName"], env=gh).stdout
+    open_sync = [p for p in json.loads(open_json or "[]")
+                 if p["headRefName"].startswith(PR_BRANCH_PREFIX + "-")]
+    if open_sync:
+        log(f"A scholar-sync PR is already open (#{open_sync[0]['number']}); "
+            "skipping until it is resolved.")
         return 0
 
     new_entries = []

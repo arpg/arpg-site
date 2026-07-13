@@ -8,6 +8,7 @@ there is nothing new or when a sync PR is already open.
 """
 
 import datetime
+import os
 import re
 import subprocess
 import sys
@@ -23,6 +24,22 @@ PUBS_FILE = REPO_DIR / "data" / "publications.yml"
 # genuinely new work and bounds the number of slow per-paper fill() calls.
 LOOKBACK_YEARS = 2
 PR_BRANCH_PREFIX = "scholar-sync"
+
+# The review PR is opened by the bot account and requests the PI as reviewer,
+# so GitHub emails the PI whenever new pubs are found. (GitHub never notifies
+# you about PRs you opened yourself, which is why self-authored sync PRs went
+# unnoticed for weeks.) crh-bot has write access to arpg/arpg-site.
+BOT_USER = "crh-bot"
+REVIEWERS = ["crheckman"]
+
+# Scholar surfaces grant awards and other non-papers. Titles listed here
+# (matched normalized) are never proposed; extend this set as noise appears.
+IGNORE_TITLES = {
+    "CAREER: Radar-based Perception and Navigation in Visually Degraded Environments",
+}
+# Belt-and-suspenders: also drop anything whose venue looks like a funding
+# award rather than a publication venue (catches future grant-award noise).
+AWARD_VENUE_RE = re.compile(r"NSF Award|Award Number|Directorate for", re.I)
 
 
 def log(msg):
@@ -54,12 +71,26 @@ def run(cmd, **kw):
     return subprocess.run(cmd, check=True, capture_output=True, text=True, **kw)
 
 
+def bot_env():
+    """Env that makes `gh` authenticate as the bot account, so the review PR is
+    authored by the bot and GitHub will email the PI on the review request."""
+    token = subprocess.run(
+        ["gh", "auth", "token", "--user", BOT_USER],
+        capture_output=True, text=True, check=True,
+    ).stdout.strip()
+    env = os.environ.copy()
+    env["GH_TOKEN"] = token
+    env["GH_HOST"] = "github.com"
+    return env
+
+
 def main():
     this_year = datetime.date.today().year
     cutoff = this_year - LOOKBACK_YEARS
 
     existing = yaml.safe_load(PUBS_FILE.read_text())
     known = {normalize_title(p["title"]) for p in existing}
+    ignore_norm = {normalize_title(t) for t in IGNORE_TITLES}
     log(f"{len(existing)} existing publications loaded")
 
     from scholarly import scholarly
@@ -80,6 +111,9 @@ def main():
         year = int(year)
         if normalize_title(title) in known:
             continue
+        if normalize_title(title) in ignore_norm:
+            log(f"ignored (non-paper/grant): {title[:70]}")
+            continue
         if year < cutoff:
             skipped_old += 1
             continue
@@ -91,10 +125,13 @@ def main():
         log("Nothing to do.")
         return 0
 
+    # All gh operations run as the bot account (PR authorship → PI gets emailed).
+    gh = bot_env()
+
     # Bail out if a previous sync PR is still open, instead of stacking PRs.
     open_prs = run(["gh", "pr", "list", "--repo", "arpg/arpg-site",
                     "--state", "open", "--search", PR_BRANCH_PREFIX,
-                    "--json", "number"]).stdout
+                    "--json", "number"], env=gh).stdout
     if open_prs.strip() not in ("", "[]"):
         log("A scholar-sync PR is already open; skipping until it is resolved.")
         return 0
@@ -115,8 +152,15 @@ def main():
             "url": filled.get("pub_url")
                 or f"https://scholar.google.com/citations?user={SCHOLAR_ID}",
         }
+        if AWARD_VENUE_RE.search(str(entry["venue"])):
+            log(f"ignored (award-like venue '{entry['venue'][:40]}'): {entry['title'][:60]}")
+            continue
         new_entries.append(entry)
         log(f"new: {entry['year']} | {entry['title'][:70]}")
+
+    if not new_entries:
+        log("All candidates filtered out as non-papers. Nothing to do.")
+        return 0
 
     # Prepend new entries (site template groups by year, order is cosmetic).
     def fmt(e):
@@ -152,12 +196,15 @@ def main():
                 f"{len(new_entries)} publication(s) not in `publications.yml`:\n\n"
                 f"{titles}\n\n"
                 "Scholar metadata is noisy - please check authors/venue/url "
-                "before merging. Merging deploys the site automatically.")
+                "before merging. Merging deploys the site automatically.\n\n"
+                f"_Opened by @{BOT_USER}; {', '.join('@'+r for r in REVIEWERS)} "
+                "requested as reviewer so this lands in your inbox._")
         run(["gh", "pr", "create", "--repo", "arpg/arpg-site",
              "--head", branch, "--base", "main",
              "--title", f"Scholar sync: {len(new_entries)} new publication(s)",
-             "--body", body])
-        log("PR opened.")
+             "--body", body,
+             "--reviewer", ",".join(REVIEWERS)], env=gh)
+        log(f"PR opened by {BOT_USER}; review requested from {', '.join(REVIEWERS)}.")
     finally:
         subprocess.run(["git", "-C", str(REPO_DIR), "worktree", "remove",
                         "--force", f"/tmp/{branch}"], capture_output=True)

@@ -12,8 +12,6 @@ students:
   - name: Doncey Albin
     image: /img/people/Doncey_Albin.jpg
     url: https://donceyalbin.com
-  - name: Anna Zavei-Boroda
-    image: /img/people/Anna_Zavei-Boroda.jpg
   - name: Lorin Achey
     image: /img/people/Lorin_Achey.jpg
     url: https://lorinachey.github.io/
@@ -24,6 +22,8 @@ students:
     image: /img/people/Kali_Hamilton.jpg
 
 alumni:
+  - name: Anna Zavei-Boroda
+    position:
   - name: Kristen Such
     position: ML Scientist, PickNik Robotics
   - name: Alec Reed
@@ -47,7 +47,7 @@ alumni:
   - name: Fernando Nobre
     position: CTO, Durable AI
   - name: Mike Kasper
-    position: Principal Research Engineer, Volum
+    position: Principal Research Engineer, Volum Technologies
   - name: Zhaozhong Chen
     position: Research Scientist, InnoPeak
   - name: Sam Bateman
@@ -107,7 +107,7 @@ alumni:
   - name: Caitlyn Robinson
     position: Terumo Blood and Cell Technologies
   - name: Juan Falquez
-    position: Amazon Robotics
+    position:
   - name: Xujia Zhang
     position:
   - name: Abhidip Bhattacharyya

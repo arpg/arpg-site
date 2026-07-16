@@ -32,6 +32,10 @@ Restorebot has evolved over the course of our deployments as we have experimente
 
 Currently, we are working on terrain identification that enables the robot to avoid obstacles such as rebar and ConMods. Additionally, we aim to have the robot avoid shrubs that are already growing in the environment despite being considered traversable by most conventional terrain identification systems. We are working on utilizing Large Language Models (such as ChatGPT) to develop convenient interfaces for ecologists to interact with RestoreBot. This includes developing pipelines that enable the robot to determine planting patterns from Natural language and its onboard sensors.
 
+### Dataset
+
+The RestoreBot dataset is hosted on CU Research Computing (PetaLibrary) and archived with a citable DOI — [https://doi.org/10.25810/AB1G-RK08](https://doi.org/10.25810/AB1G-RK08).
+
 ### Upcoming Deployments
 
 We are diligently planning for our November 2023 deployment in which we will focus on making autonomous intervention for the first time. In addition to refining our seeding mechanism, we are also planning to deploy a U5 robotic arm for installing custom ConMods. The ConMods used by ecologists are currently made of chicken wire, but to make them more friendly for robotic deployment, we have attempted to make similar structures with rigid wooden frames.

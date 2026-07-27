@@ -65,10 +65,10 @@
   url: https://doi.org/10.1109/ICRA55743.2025.11128832
 
 - title: "Spatial-LLaVA: Enhancing Large Language Models with Spatial Referring Expressions for Visual Understanding"
-  authors: "Xuefei Sun, Doncey Albin, Cecilia Mauceri, Dusty Woods, Christoffer Heckman"
-  venue: "CoRR"
+  authors: "Xuefei Sun, Doncey Albin, Cecilia Mauceri, Destin Woods, Chris Heckman"
+  venue: "ICRA 2025 Workshop: Human-Centered Robot Learning in the Era of Big Data and Large Models"
   year: 2025
-  url: https://doi.org/10.48550/arXiv.2505.12194
+  url: https://openreview.net/forum?noteId=z8DaD6abtw
 
 - title: "CU-Multi: A Dataset for Multi-Robot Data Association"
   authors: "Doncey Albin, Miles Mena, Annika Thomas, Harel Biggie, Xuefei Sun, Dusty Woods, Steve McGuire, Christoffer Heckman"

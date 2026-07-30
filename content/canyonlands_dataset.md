@@ -9,9 +9,10 @@ authors:
   - "Christoffer Heckman"
 links:
   - { url: "https://github.com/suchkristenwow/CanyonlandsDataset", text: "GitHub" }
+  - { url: "https://doi.org/10.25810/AB1G-RK08", text: "Dataset DOI" }
 ---
 
-> **Dataset download:** the dataset is being migrated to long-term hosting on CU Research Computing (PetaLibrary); a permanent download link will be posted here shortly.
+> **Dataset:** hosted on CU Research Computing (PetaLibrary) and archived with a citable DOI — [https://doi.org/10.25810/AB1G-RK08](https://doi.org/10.25810/AB1G-RK08). The Canyonlands and [RestoreBot](/restorebot/) data are released together under this single DOI.
 
 
 <div style="text-align: justify; background-color:rgb(225, 225, 225); padding: 5px; border-radius: 5px;">

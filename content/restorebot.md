@@ -34,7 +34,7 @@ Currently, we are working on terrain identification that enables the robot to av
 
 ### Dataset
 
-The RestoreBot dataset is hosted on CU Research Computing (PetaLibrary) and archived with a citable DOI — [https://doi.org/10.25810/AB1G-RK08](https://doi.org/10.25810/AB1G-RK08).
+The RestoreBot and [Canyonlands](/canyonlands_dataset/) data are released together on CU Research Computing (PetaLibrary) under a single citable DOI — [https://doi.org/10.25810/AB1G-RK08](https://doi.org/10.25810/AB1G-RK08).
 
 ### Upcoming Deployments
 

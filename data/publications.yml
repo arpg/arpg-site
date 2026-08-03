@@ -1,3 +1,15 @@
+- title: "Octree Diffusion for Semantic Scene Generation and Completion"
+  authors: "Xujia Zhang, Brendan Crowe, Christoffer Heckman"
+  venue: "arXiv preprint arXiv:2509.16483"
+  year: 2025
+  url: https://arxiv.org/abs/2509.16483
+
+- title: "Robotics Platform for Degraded Rangeland Restoration"
+  authors: "Kristen Such, Harel Biggie, Christoffer Heckman"
+  venue: "Experimental Robotics: The 18th International Symposium"
+  year: 2024
+  url: https://books.google.com/books?hl=en&lr=&id=IeoXEQAAQBAJ&oi=fnd&pg=PA319&dq=info:kjlHa8dX9cQJ:scholar.google.com&ots=0UgmCkOyDp&sig=Va37HxrRlAkUsi7fSHvKqYhuDZw
+
 - title: "Transformer-based learning models of dynamical systems for robotic state prediction"
   authors: "Alec Reed, Doncey Albin, Anuh Pasricha, Alessandro Roncone, Christoffer Heckman"
   venue: "TBD"

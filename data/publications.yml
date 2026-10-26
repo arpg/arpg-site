@@ -1,8 +1,14 @@
+- title: "ECHO: Embodied Camera Observations of Human Object Carrying"
+  authors: "Xuefei Sun, Lorin Achey, Kali Hamilton, Alberto Speranzon, Gregory Grebe, Yonatan Bisk, Christoffer Heckman"
+  venue: "arXiv preprint arXiv:2610.10438"
+  year: 2026
+  url: https://arxiv.org/abs/2610.10438
+
 - title: "Octree Diffusion for Semantic Scene Generation and Completion"
   authors: "Xujia Zhang, Brendan Crowe, Christoffer Heckman"
-  venue: "arXiv preprint arXiv:2509.16483"
-  year: 2025
-  url: https://arxiv.org/abs/2509.16483
+  venue: "2026 IEEE International Conference on Robotics and Automation (ICRA)"
+  year: 2026
+  url: https://ieeexplore.ieee.org/abstract/document/11697260/
 
 - title: "Robotics Platform for Degraded Rangeland Restoration"
   authors: "Kristen Such, Harel Biggie, Christoffer Heckman"
@@ -94,11 +100,11 @@
   year: 2025
   url: https://doi.org/10.48550/arXiv.2509.16483
 
-- title: "CU-Multi: A Dataset for Multi-Robot Collaborative Perception"
-  authors: "Doncey Albin, Daniel McGann, Miles Mena, Annika Thomas, Harel Biggie, Xuefei Sun, Steve McGuire, Jonathan P. How, Christoffer Heckman"
-  venue: "CoRR"
-  year: 2025
-  url: https://doi.org/10.48550/arXiv.2509.19463
+- title: "CU-Multi: A dataset for multi-robot collaborative perception"
+  authors: "Doncey Albin, Daniel McGann, Miles Mena, Annika Thomas, Harel Biggie, Xuefei Sun, Steve McGuire, Jonathan P How, Christoffer Heckman"
+  venue: "2026 IEEE International Conference on Robotics and Automation (ICRA)"
+  year: 2026
+  url: https://ieeexplore.ieee.org/abstract/document/11697041/
 
 - title: "Neural dynamics of robust legged robots"
   authors: "Eugene R. Rush, Christoffer Heckman, Kaushik Jayaram, J. Sean Humbert"

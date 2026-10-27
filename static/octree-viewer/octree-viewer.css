@@ -1,0 +1,34 @@
+.ov-root { max-width: 980px; margin: 0 auto 1.5rem; font-size: 15px;
+            box-sizing: border-box; }
+.ov-root *, .ov-root *::before, .ov-root *::after { box-sizing: inherit; }
+.ov-bar { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center;
+          margin-bottom: .6rem; }
+.ov-select { padding: .3rem .5rem; border: 1px solid #c4c8cf; border-radius: 4px;
+             background: #fff; font-size: .92rem; }
+.ov-tabs { display: inline-flex; border: 1px solid #c4c8cf; border-radius: 4px;
+           overflow: hidden; }
+.ov-tab { border: 0; border-right: 1px solid #c4c8cf; background: #fff;
+          padding: .34rem .8rem; font-size: .92rem; cursor: pointer; color: #333; }
+.ov-tab:last-child { border-right: 0; }
+.ov-tab:hover { background: #eef1f5; }
+.ov-tab.is-on { background: #2a5db0; color: #fff; }
+.ov-check { font-size: .92rem; color: #444; cursor: pointer; user-select: none; }
+.ov-stage { position: relative; border: 1px solid #d6d9de; border-radius: 5px;
+            overflow: hidden; background: #f4f5f7; line-height: 0; }
+.ov-stage canvas { display: block; }
+.ov-tip { position: absolute; pointer-events: none; background: rgba(20,22,26,.88);
+          color: #fff; padding: .18rem .45rem; border-radius: 3px; font-size: .82rem;
+          line-height: 1.3; white-space: nowrap; z-index: 5; }
+.ov-status { position: absolute; top: .6rem; left: .6rem; background: rgba(20,22,26,.8);
+             color: #fff; padding: .2rem .5rem; border-radius: 3px; font-size: .82rem;
+             line-height: 1.3; display: none; z-index: 5; }
+.ov-caption { margin-top: .55rem; font-size: .88rem; color: #444; line-height: 1.5; }
+.ov-legend { margin-top: .4rem; display: flex; flex-wrap: wrap; gap: .3rem .7rem; }
+.ov-chip { display: inline-flex; align-items: center; font-size: .8rem; color: #555; }
+.ov-chip i { width: .72rem; height: .72rem; border-radius: 2px; margin-right: .3rem;
+             border: 1px solid rgba(0,0,0,.18); display: inline-block; }
+.ov-fallback { border: 1px solid #d6d9de; border-radius: 5px; padding: 1rem;
+               background: #fafbfc; }
+.ov-fallback img { max-width: 100%; height: auto; }
+@media (max-width: 600px) { .ov-bar { font-size: .85rem; } }
+.ov-range { vertical-align: middle; width: 110px; }

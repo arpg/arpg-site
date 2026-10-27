@@ -12,6 +12,7 @@
   </div>
   <div class="pub-authors">{{ .authors }}</div>
   {{ with .venue }}<div class="pub-venue">{{ . }}</div>{{ end }}
+  {{ with .page }}<div class="pub-links"><a href="{{ . }}">Project page &rarr;</a></div>{{ end }}
 </div>
 {{ end }}
 {{ end }}

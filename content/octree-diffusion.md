@@ -188,6 +188,13 @@ same recipe with class-weighted semantics. The scenes rendered above come from t
 retrain, so they are representative of what you get from the repo rather than
 bit-identical to the paper's figures.</p>
 
+<h2 id="related">Related work</h2>
+
+<p>Octree Diffusion follows <a href="/scenesense/">SceneSense</a> (IROS 2024), the lab's
+diffusion model for synthesizing 3D occupancy from partial observation, which appears as
+a baseline in the Replica table above. Octree Diffusion carries that line of work from
+occupancy to semantic labels.</p>
+
 <h2 id="code">Code</h2>
 
 <p>Implementation, pretrained weights and notebooks:

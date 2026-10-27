@@ -9,6 +9,7 @@
   venue: "2026 IEEE International Conference on Robotics and Automation (ICRA)"
   year: 2026
   url: https://ieeexplore.ieee.org/abstract/document/11697260/
+  page: /octree-diffusion/
 
 - title: "Robotics Platform for Degraded Rangeland Restoration"
   authors: "Kristen Such, Harel Biggie, Christoffer Heckman"
@@ -93,12 +94,6 @@
   venue: "CoRR"
   year: 2025
   url: https://doi.org/10.48550/arXiv.2505.17576
-
-- title: "Octree Diffusion for Semantic Scene Generation and Completion"
-  authors: "Xujia Zhang, Brendan Crowe, Christoffer Heckman"
-  venue: "ICRA"
-  year: 2026
-  url: /octree-diffusion/
 
 - title: "CU-Multi: A dataset for multi-robot collaborative perception"
   authors: "Doncey Albin, Daniel McGann, Miles Mena, Annika Thomas, Harel Biggie, Xuefei Sun, Steve McGuire, Jonathan P How, Christoffer Heckman"

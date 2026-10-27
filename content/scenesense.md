@@ -176,6 +176,14 @@ Our occupancy in-painting method ensures that observed space remains intact whil
 
 <br>
 
+## Follow-up work
+
+[Octree Diffusion](/octree-diffusion/) (ICRA 2026) extends SceneSense from occupancy to
+semantic labels: one octree-latent diffusion framework that generates, completes and
+extends labelled 3D scenes, indoors and outdoors.
+
+<br>
+
 ## Citation
 
 ```bib

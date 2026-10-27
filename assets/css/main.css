@@ -542,6 +542,16 @@ img {
   font-style: italic;
 }
 
+.pub-links {
+  font-size: 0.85rem;
+  margin-top: 0.15rem;
+}
+
+.pub-links a {
+  color: var(--cu-sky-blue);
+  font-weight: 600;
+}
+
 /* ====== FOOTER ====== */
 
 .footer {

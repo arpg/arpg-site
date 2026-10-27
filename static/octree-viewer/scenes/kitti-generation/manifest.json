@@ -1,0 +1,207 @@
+{
+ "dataset": "semantickitti",
+ "dims": [
+  256,
+  256,
+  32
+ ],
+ "axes": "x, y, z -- z is up",
+ "voxel_size_m": 0.2,
+ "record": "uint8 x, y, z, label",
+ "num_classes": 20,
+ "class_names": [
+  "free",
+  "car",
+  "bicycle",
+  "motorcycle",
+  "truck",
+  "other-vehicle",
+  "person",
+  "bicyclist",
+  "motorcyclist",
+  "road",
+  "parking",
+  "sidewalk",
+  "other-ground",
+  "building",
+  "fence",
+  "vegetation",
+  "trunk",
+  "terrain",
+  "pole",
+  "traffic-sign"
+ ],
+ "palette": [
+  [
+   255,
+   255,
+   255
+  ],
+  [
+   100,
+   150,
+   245
+  ],
+  [
+   100,
+   230,
+   245
+  ],
+  [
+   30,
+   60,
+   150
+  ],
+  [
+   80,
+   30,
+   180
+  ],
+  [
+   0,
+   0,
+   255
+  ],
+  [
+   255,
+   30,
+   30
+  ],
+  [
+   255,
+   40,
+   200
+  ],
+  [
+   150,
+   30,
+   90
+  ],
+  [
+   255,
+   0,
+   255
+  ],
+  [
+   255,
+   150,
+   255
+  ],
+  [
+   75,
+   0,
+   75
+  ],
+  [
+   175,
+   0,
+   75
+  ],
+  [
+   255,
+   200,
+   0
+  ],
+  [
+   255,
+   120,
+   50
+  ],
+  [
+   0,
+   175,
+   0
+  ],
+  [
+   135,
+   60,
+   0
+  ],
+  [
+   150,
+   240,
+   80
+  ],
+  [
+   255,
+   240,
+   150
+  ],
+  [
+   255,
+   0,
+   0
+  ]
+ ],
+ "default_cut": 1.0,
+ "variants": [
+  {
+   "key": "sample",
+   "label": "Generated",
+   "hint": "sampled from noise, nothing observed"
+  }
+ ],
+ "sampling": {
+  "source": [
+   "out/sweep_kitti_gen_v3/raw"
+  ],
+  "selected_by": "eye, from a scored contact sheet; raw output, no post-processing",
+  "selected_from": 300,
+  "seeds": [
+   20107,
+   20184,
+   20038,
+   20056
+  ]
+ },
+ "scenes": [
+  {
+   "id": "seed_20107",
+   "scene": "seed 20107",
+   "occupied_voxels": 99205,
+   "classes": 15,
+   "variants": {
+    "sample": {
+     "file": "seed_20107_sample.bin",
+     "count": 76427
+    }
+   }
+  },
+  {
+   "id": "seed_20184",
+   "scene": "seed 20184",
+   "occupied_voxels": 106406,
+   "classes": 16,
+   "variants": {
+    "sample": {
+     "file": "seed_20184_sample.bin",
+     "count": 78066
+    }
+   }
+  },
+  {
+   "id": "seed_20038",
+   "scene": "seed 20038",
+   "occupied_voxels": 119376,
+   "classes": 14,
+   "variants": {
+    "sample": {
+     "file": "seed_20038_sample.bin",
+     "count": 82886
+    }
+   }
+  },
+  {
+   "id": "seed_20056",
+   "scene": "seed 20056",
+   "occupied_voxels": 106570,
+   "classes": 13,
+   "variants": {
+    "sample": {
+     "file": "seed_20056_sample.bin",
+     "count": 80337
+    }
+   }
+  }
+ ]
+}

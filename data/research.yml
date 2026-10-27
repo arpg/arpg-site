@@ -8,10 +8,10 @@
       authors: "Achey, Reed, Crowe, Hayes, Heckman"
       venue: "Autonomous Robots, 2026"
       url: https://doi.org/10.1007/s10514-025-10229-0
-    - title: "Octree Latent Diffusion for Semantic 3D Scene Generation and Completion"
+    - title: "Octree Diffusion for Semantic Scene Generation and Completion"
       authors: "Zhang, Crowe, Heckman"
-      venue: "arXiv 2025"
-      url: https://arxiv.org/abs/2509.16483
+      venue: "ICRA 2026"
+      url: /octree-diffusion/
     - title: "Online Diffusion-Based 3D Occupancy Prediction at the Frontier"
       authors: "Reed, Achey, Crowe, Hayes, Heckman"
       venue: "ICRA 2025"

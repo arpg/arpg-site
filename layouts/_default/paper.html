@@ -14,6 +14,7 @@
           {{ range . }}<span class="paper-author">{{ . }}</span> {{ end }}
         </p>
         {{ end }}
+        {{ with .Params.author_note }}<p class="paper-author-note">{{ . | markdownify }}</p>{{ end }}
         {{ with .Params.links }}
         <p class="paper-links">
           {{ range $i, $l := . }}{{ if gt $i 0 }} <strong>|</strong> {{ end }}<a href="{{ $l.url }}">{{ $l.text }}</a>{{ end }}

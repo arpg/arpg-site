@@ -873,8 +873,41 @@ img {
   color: var(--cu-black);
 }
 
+.paper-author-note {
+  font-size: 0.85rem;
+  color: var(--cu-dark-gray);
+  margin: -0.5rem 0 0.75rem;
+}
+
 .paper-links {
   font-size: 1.1rem;
+}
+
+/* Numeric result tables on paper pages: centred cells, a small +/- standard error,
+   bold for the best entry in a row and underline for the second. */
+.article table.results {
+  font-size: 0.74rem;
+}
+
+.article table.results td,
+.article table.results th {
+  text-align: center;
+  white-space: nowrap;
+  padding: 0.3rem 0.3rem;
+}
+
+.article table.results td:first-child,
+.article table.results th:first-child {
+  text-align: left;
+}
+
+.article table.results .se {
+  font-size: 0.75em;
+  color: var(--cu-dark-gray);
+}
+
+.article table.results .second {
+  text-decoration: underline;
 }
 
 .paper-news {
@@ -1134,4 +1167,19 @@ img {
   border-radius: 999px;
   margin-top: 0.25rem;
   font-style: normal;
+}
+
+/* Rollout GIF gallery (project pages) */
+.article .rollouts {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0.75rem 0 1.25rem;
+}
+.article .rollouts.cols-2 { grid-template-columns: repeat(2, 1fr); }
+.article .rollouts.cols-3 { grid-template-columns: repeat(3, 1fr); }
+.article .rollouts figure { margin: 0; text-align: center; }
+.article .rollouts img { width: 100%; height: auto; margin: 0; border: 1px solid #e5e5e5; }
+.article .rollouts figcaption { font-size: 0.8rem; color: var(--cu-dark-gray); margin-top: 0.25rem; }
+@media (max-width: 640px) {
+  .article .rollouts.cols-2, .article .rollouts.cols-3 { grid-template-columns: 1fr; }
 }

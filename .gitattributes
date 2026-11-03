@@ -1,0 +1,3 @@
+# Voxel scene data for the octree viewer. Some files have no NUL byte in
+# their first 8 KB, so git would otherwise diff them as text.
+*.bin binary

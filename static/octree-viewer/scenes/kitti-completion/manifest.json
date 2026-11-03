@@ -1,0 +1,285 @@
+{
+ "dataset": "semantickitti",
+ "dims": [
+  256,
+  256,
+  32
+ ],
+ "axes": "x, y, z -- z is up",
+ "voxel_size_m": 0.2,
+ "record": "uint8 x, y, z, label",
+ "num_classes": 20,
+ "class_names": [
+  "free",
+  "car",
+  "bicycle",
+  "motorcycle",
+  "truck",
+  "other-vehicle",
+  "person",
+  "bicyclist",
+  "motorcyclist",
+  "road",
+  "parking",
+  "sidewalk",
+  "other-ground",
+  "building",
+  "fence",
+  "vegetation",
+  "trunk",
+  "terrain",
+  "pole",
+  "traffic-sign"
+ ],
+ "palette": [
+  [
+   255,
+   255,
+   255
+  ],
+  [
+   100,
+   150,
+   245
+  ],
+  [
+   100,
+   230,
+   245
+  ],
+  [
+   30,
+   60,
+   150
+  ],
+  [
+   80,
+   30,
+   180
+  ],
+  [
+   0,
+   0,
+   255
+  ],
+  [
+   255,
+   30,
+   30
+  ],
+  [
+   255,
+   40,
+   200
+  ],
+  [
+   150,
+   30,
+   90
+  ],
+  [
+   255,
+   0,
+   255
+  ],
+  [
+   255,
+   150,
+   255
+  ],
+  [
+   75,
+   0,
+   75
+  ],
+  [
+   175,
+   0,
+   75
+  ],
+  [
+   255,
+   200,
+   0
+  ],
+  [
+   255,
+   120,
+   50
+  ],
+  [
+   0,
+   175,
+   0
+  ],
+  [
+   135,
+   60,
+   0
+  ],
+  [
+   150,
+   240,
+   80
+  ],
+  [
+   255,
+   240,
+   150
+  ],
+  [
+   255,
+   0,
+   0
+  ]
+ ],
+ "default_cut": 1.0,
+ "variants": [
+  {
+   "key": "observed",
+   "label": "LiDAR scan",
+   "hint": "a single sweep, voxelised"
+  },
+  {
+   "key": "completed",
+   "label": "Completed",
+   "hint": "completed from the scan, labels included"
+  },
+  {
+   "key": "truth",
+   "label": "Ground truth",
+   "hint": "SemanticKITTI SSC labels; invalid voxels shown empty"
+  }
+ ],
+ "sampling": {
+  "source": [
+   "out/sweep_kitti_comp/raw"
+  ],
+  "selected_by": "eye, from a scored contact sheet; raw output, no post-processing",
+  "selected_from": 42,
+  "ids": [
+   "08_000133_s2",
+   "08_000057_s3",
+   "08_000149_s5",
+   "08_000093_s1"
+  ]
+ },
+ "scenes": [
+  {
+   "id": "08_000133",
+   "scene": "sequence 08, scan 000133",
+   "draw": "08_000133_s2",
+   "seed": 2,
+   "volume_invalid": 0.1677,
+   "observation_fidelity": {
+    "scan_hits": 14354,
+    "hits_kept": 0.9963,
+    "hits_relabelled_same": 0.9971
+   },
+   "occupied_voxels": 159671,
+   "classes": 10,
+   "volume_observed": 0.1179,
+   "variants": {
+    "observed": {
+     "file": "08_000133_observed.bin",
+     "count": 14136
+    },
+    "completed": {
+     "file": "08_000133_completed.bin",
+     "count": 121034
+    },
+    "truth": {
+     "file": "08_000133_truth.bin",
+     "count": 131098
+    }
+   }
+  },
+  {
+   "id": "08_000057",
+   "scene": "sequence 08, scan 000057",
+   "draw": "08_000057_s3",
+   "seed": 3,
+   "volume_invalid": 0.1447,
+   "observation_fidelity": {
+    "scan_hits": 11475,
+    "hits_kept": 0.9946,
+    "hits_relabelled_same": 0.9897
+   },
+   "occupied_voxels": 120408,
+   "classes": 15,
+   "volume_observed": 0.1261,
+   "variants": {
+    "observed": {
+     "file": "08_000057_observed.bin",
+     "count": 11455
+    },
+    "completed": {
+     "file": "08_000057_completed.bin",
+     "count": 131215
+    },
+    "truth": {
+     "file": "08_000057_truth.bin",
+     "count": 106710
+    }
+   }
+  },
+  {
+   "id": "08_000149",
+   "scene": "sequence 08, scan 000149",
+   "draw": "08_000149_s5",
+   "seed": 5,
+   "volume_invalid": 0.2129,
+   "observation_fidelity": {
+    "scan_hits": 14639,
+    "hits_kept": 0.9955,
+    "hits_relabelled_same": 0.9968
+   },
+   "occupied_voxels": 188203,
+   "classes": 10,
+   "volume_observed": 0.112,
+   "variants": {
+    "observed": {
+     "file": "08_000149_observed.bin",
+     "count": 14565
+    },
+    "completed": {
+     "file": "08_000149_completed.bin",
+     "count": 131391
+    },
+    "truth": {
+     "file": "08_000149_truth.bin",
+     "count": 148564
+    }
+   }
+  },
+  {
+   "id": "08_000093",
+   "scene": "sequence 08, scan 000093",
+   "draw": "08_000093_s1",
+   "seed": 1,
+   "volume_invalid": 0.0991,
+   "observation_fidelity": {
+    "scan_hits": 9804,
+    "hits_kept": 0.9966,
+    "hits_relabelled_same": 0.9937
+   },
+   "occupied_voxels": 62381,
+   "classes": 12,
+   "volume_observed": 0.0741,
+   "variants": {
+    "observed": {
+     "file": "08_000093_observed.bin",
+     "count": 9777
+    },
+    "completed": {
+     "file": "08_000093_completed.bin",
+     "count": 91451
+    },
+    "truth": {
+     "file": "08_000093_truth.bin",
+     "count": 53550
+    }
+   }
+  }
+ ]
+}

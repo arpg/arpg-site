@@ -17,16 +17,16 @@
   url: https://books.google.com/books?hl=en&lr=&id=IeoXEQAAQBAJ&oi=fnd&pg=PA319&dq=info:kjlHa8dX9cQJ:scholar.google.com&ots=0UgmCkOyDp&sig=Va37HxrRlAkUsi7fSHvKqYhuDZw
 
 - title: "Transformer-based learning models of dynamical systems for robotic state prediction"
-  authors: "Alec Reed, Doncey Albin, Anuh Pasricha, Alessandro Roncone, Christoffer Heckman"
+  authors: "TBD"
   venue: "TBD"
   year: 2024
-  url: https://assets-eu.researchsquare.com/files/rs-3919154/v1_covered_b6c4468c-35f1-4333-9197-5439548e5d80.pdf?c=1721226833
+  url: https://scholar.google.com/citations?user=lysFu30AAAAJ
 
 - title: "Belief Consistency Between Foundation-Model Evidence and Geometric Perception in Persistent Robotic Maps"
-  authors: "Christoffer Heckman, Harel Biggie, Brendan Crowe, Nicholas Roy"
-  venue: "arXiv preprint arXiv:2606.00318"
+  authors: "TBD"
+  venue: "International Symposium on Robotics Research (ISRR)"
   year: 2026
-  url: https://arxiv.org/abs/2606.00318
+  url: https://scholar.google.com/citations?user=lysFu30AAAAJ
 
 - title: "SceneGraphGrounder: Zero-Shot 3D Visual Grounding via Structured Scene Graph Matching"
   authors: "Xuefei Sun, Xujia Zhang, Brendan Crowe, Doncey Albin, Christoffer Heckman"
